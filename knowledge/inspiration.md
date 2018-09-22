@@ -12,3 +12,10 @@ A few artists or creators really vibed with me, and here's that list. This can b
 ## People, artists
 
 - [Devine Lu Livenga](https://wiki.xxiivv.com/#home)
+- [Sam Altman](http://blog.samaltman.com/)
+- [Paul Graham](http://www.paulgraham.com/articles.html)
+
+## Books
+-  Incerto, a series by [Nassim Nicholas Taleb](https://en.m.wikipedia.org/wiki/Nassim_Nicholas_Taleb)
+    - [Fooled by Randomness](https://en.m.wikipedia.org/wiki/Fooled_by_Randomness)
+    - [The Black Swan](https://en.m.wikipedia.org/wiki/The_Black_Swan:_The_Impact_of_the_Highly_Improbable)

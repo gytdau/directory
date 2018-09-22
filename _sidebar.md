@@ -1,5 +1,7 @@
 * [directory](README)
 * [context/existence](context/existence)
+* [context/influence](context/influence)
+* [context/location](context/location)
 * [knowledge/inspiration](knowledge/inspiration)
 * [tooling/publishing](tooling/publishing)
 * [tooling/writing](tooling/writing)
