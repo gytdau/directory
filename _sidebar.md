@@ -1,0 +1,7 @@
+* [directory](README)
+* [context/existence](context/existence)
+* [knowledge/inspiration](knowledge/inspiration)
+* [tooling/publishing](tooling/publishing)
+* [tooling/writing](tooling/writing)
+* [values/change](values/change)
+* [values/integrity](values/integrity)
