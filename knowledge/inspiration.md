@@ -1,5 +1,9 @@
 # Inspiration
 
+I think nothing original has ever been made - it's a matter of stealing other people's work, and then transforming or combining until it's sufficiently different to call your own. Everyone has, at one point, stood on the shoulders of giants.
+
+# Sources
+
 A few artists or creators really vibed with me, and here's that list. This can be really incomplete.
 
 ## Movies, films, video

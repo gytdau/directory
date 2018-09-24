@@ -15,3 +15,11 @@ It turns out that a lot of processes in corporations take longer than a more cre
 
 In my own experience, I found that while mindless chores like washing the dishes or taking showers expends more physical energy than staying at a desk and typing at a keyboard, your mind can go pretty much on full auto mode. You can get a lot of mindless things done and, at the end, only be physically tired.
 
+## Increasing Energy
+
+Eating, sleeping, and exercising well are all obvious keys to increasing the amount of energy you have, but juggling them  is a worthy challenge in and of itself.
+
+Emotional state is also important to your energy level:
+
+> Most people realize that they tend to perform best when they’re feeling positive energy. What they find surprising is that they’re not able to perform well or to lead effectively when they’re feeling any other way.
+
