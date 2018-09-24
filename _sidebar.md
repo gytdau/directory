@@ -2,6 +2,7 @@
 * [context/existence](context/existence)
 * [context/influence](context/influence)
 * [context/location](context/location)
+* [knowledge/energy](knowledge/energy)
 * [knowledge/inspiration](knowledge/inspiration)
 * [tooling/publishing](tooling/publishing)
 * [tooling/writing](tooling/writing)
