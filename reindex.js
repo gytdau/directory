@@ -18,16 +18,28 @@ function walkSync (dir, filelist = []) {
     return filelist;
 }
 
+let lastDirectory = ""
+
 const data = 
 walkSync(".")
 .filter((name) => name.endsWith(".md"))
 .filter((name) => name !== "_sidebar.md")
 .map(name => {
-    name = name.substring(0, name.length-3);
+    folders = name.substring(0, name.length-3).split("/");
+    name = folders.pop()
     if (name == "README") {
         return `* [directory](README)\n`
     }
-    return `* [${name}](${name})\n`
+    directory = folders.join("/")
+    if(directory.length > 0) {
+        directory += "/"
+    }
+    if(directory == lastDirectory) {
+        return `* [*${directory}*${name}](${directory + name})\n`
+    } else {
+        lastDirectory = directory
+        return `* [**${directory}**${name}](${directory + name})\n`
+    }
 })
 .join("");
 
