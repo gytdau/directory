@@ -12,6 +12,8 @@ I keep an encrypted archive of journal entries. Encrypting makes it feel like a 
 
 I don't usually read back on these journal entries. I'm not sure if you're supposed to.
 
+I haven't written a journal entry in a long time, particularly because right now it's replaced by writing in this directory.
+
 ## Physical
 
 My current strategy is getting a high-quality notebook where you can tear away pages, and keeping each thought seperated on one page. Tear away a page to start a new thought. These pages form a stack which represents tasks and thoughts in progress.
@@ -24,4 +26,4 @@ You could keep boxes of old pages, but I just throw them away for now.
 
 I've always been fascinated with how many good ideas you have that might just be lost forever. From what I can tell right now, this might be a very small quantity.
 
-I usually write good ideas on Google Keep, or Todoist. I review these ocasionally but never frequently enough.
+I usually write good ideas on Google Keep, or Todoist. I review these occasionally but never frequently enough.

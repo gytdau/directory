@@ -1,4 +1,5 @@
 * [directory](README)
+* [**books/**networking fundamentals](books/networking fundamentals)
 * [**context/**existence](context/existence)
 * [*context/*influence](context/influence)
 * [*context/*location](context/location)
@@ -6,6 +7,7 @@
 * [*knowledge/*inspiration](knowledge/inspiration)
 * [*knowledge/*narrative](knowledge/narrative)
 * [**tooling/**publishing](tooling/publishing)
+* [*tooling/*reading](tooling/reading)
 * [*tooling/*writing](tooling/writing)
 * [**values/**change](values/change)
 * [*values/*integrity](values/integrity)
