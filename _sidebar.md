@@ -1,5 +1,4 @@
 * [directory](README)
-* [**books/**networking fundamentals](books/networking fundamentals)
 * [**context/**existence](context/existence)
 * [*context/*influence](context/influence)
 * [*context/*location](context/location)
