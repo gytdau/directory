@@ -2,7 +2,7 @@
 
 The universe has very little to no intrinsic meaning, so if you think about your existence too much you'll end up experiencing existential angst, which is kind of unpleasant. Sam Altman provided a [sobering stance on this:](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
 
-> Existential angst is part of life.  It is particularly noticeable around major life events or just after major career milestones.  It seems to particularly affect smart, ambitious people.  I think one of the reasons some people work so hard is so they don’t have to spend too much time thinking about this.
+> Existential angst is part of life.  It is particularly noticeable around major life events or just after major career milestones. [...]  I think one of the reasons some people work so hard is so they don’t have to spend too much time thinking about this.
 
 As per instructions given, I usually like to work hard to deter the existential angst from creeping in. This works pretty well, so I'd recommend it if you're feeling the same way. If that doesn't work, try going outside and running as fast as you can, until you almost collapse from exhaustion. You usually stop thinking about it pretty quickly.
 

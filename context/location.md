@@ -1,6 +1,6 @@
 # Location
 
-I've lived in Dublin ever since my parents moved here. I used to think the city was pretty dead until I started getting more disposable income.
+I've lived in Dublin ever since my parents moved here. I keep finding new things to do and explore even now.
 
 ## Moving
 

@@ -25,5 +25,3 @@ You could keep boxes of old pages, but I just throw them away for now.
 # Capturing thoughts
 
 I've always been fascinated with how many good ideas you have that might just be lost forever. From what I can tell right now, this might be a very small quantity.
-
-I usually write good ideas on Google Keep, or Todoist. I review these occasionally but never frequently enough.
