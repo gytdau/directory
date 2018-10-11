@@ -1,6 +1,6 @@
 # Energy
 
-Someone told me that almost everybody who finds themselves running out of time actually runs out of energy. This is very true. If you had infinite energy, you would accomplish far more throughout a single day, compared to having more hours in a day, where you will probably be tired from the same amount of work you did before.
+Someone told me that almost everybody who finds themselves running out of time actually runs out of energy. This is very true. If you had infinite energy, you would accomplish far more throughout a single day, compared to having more hours in a day, where you would be tired from the same amount of work you did before.
 
 ## Increasing Energy
 
