@@ -1,0 +1,14 @@
+{
+  "name": "Directory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gytdau/directory",
+  "author": "Gytis Daujotas <gytdau@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node index.js & docsify serve"
+  }
+}
