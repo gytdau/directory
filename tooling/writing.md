@@ -1,18 +1,20 @@
 # Writing
 
+I have a short memory and a lot of things slip through my grasp. Taking notes helps make sure that I can still make sense of my situation after days or weeks have passed.
+
 Taking down notes is a difficult problem to fully capture. I don't need to archive much of what I take down so my systems are very ephemeral and temporary, adapting to whatever is more convinient at the time. These frameworks are usually how I work.
 
 ## Digital
 
-I write using Typora, and save files to my disk. I don't back up my documents because my writing is scattered all over my directories, and creating a backup process would be a large investment. Theoretically, anything important should already be published. I should get around to getting one eventually.
+I write using Typora, and back files up to Google Drive.
 
 ### Journal
 
-I keep an encrypted archive of journal entries. Encrypting makes it feel like a physcologically safer space. I don't back up these journals either.
+I keep an encrypted archive of journal entries. Encrypting makes it feel like a physcologically safer space. Valuable insights have come from reading back over these entries.
 
-I don't usually read back on these journal entries. I'm not sure if you're supposed to.
+### Todos
 
-I haven't written a journal entry in a long time, particularly because right now it's replaced by writing in this directory.
+I use Todoist. The system tends to break down when you don't pay enough attention to it so I'm trying to make sure I check and maintain my lists frequently.
 
 ## Physical
 

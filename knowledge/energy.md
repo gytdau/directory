@@ -4,6 +4,8 @@ Someone told me that almost everybody who finds themselves running out of time a
 
 ## Increasing Energy
 
+
+
 Time is a finite resource, but energy is not:
 
 > Energy can be systematically expanded and regularly renewed by establishing specific rituals—behaviors that are intentionally practiced and precisely scheduled, with the goal of making them unconscious and automatic as quickly as possible.

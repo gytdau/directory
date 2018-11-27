@@ -30,19 +30,26 @@ chokidar.watch('.', { ignored: "_sidebar.md", ignoreInitial: true }).on("all", (
             .filter((name) => name !== "_sidebar.md")
             .map(name => {
                 folders = name.substring(0, name.length - 3).split("/");
-                name = folders.pop()
-                if (name == "README") {
+                proccesedName = folders.pop()
+                // Handle README.md
+                if (name == "README.md") {
                     return `* [directory](README)\n`
+                } else if (proccesedName == "README") {
+                    directory = folders.join("/")
+                    directory += "/"
+                    lastDirectory = directory
+                    return `* [**${directory.slice(0, -1)}**](${directory})\n`
                 }
+                // Handle everything else
                 directory = folders.join("/")
                 if (directory.length > 0) {
                     directory += "/"
                 }
                 if (directory == lastDirectory) {
-                    return `* [*${directory}*${name}](${directory + name})\n`
+                    return `* [*${directory}*${proccesedName}](${directory + proccesedName})\n`
                 } else {
                     lastDirectory = directory
-                    return `* [**${directory}**${name}](${directory + name})\n`
+                    return `* [**${directory}**${proccesedName}](${directory + proccesedName})\n`
                 }
             })
             .join("");
