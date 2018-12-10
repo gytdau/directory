@@ -1,0 +1,1 @@
+The directory is an online collection of my beliefs and values.
