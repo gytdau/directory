@@ -1,7 +1,13 @@
-# Directory
+# React-Static - Markdown Example
 
-I'm trying to develop a complete picture of my values and knowledge. You can explore what I make public.
+This example is the most basic version of react-static available with support for markdown content. It includes:
+- Babel
+- CSS imports
+- Image imports
+- File imports
+- Automatic Routing
+- Markdown content with [jdown](https://github.com/DanWebb/jdown)
 
-[View in the pretty hosted website](http://directory.gytis.co) or [view it as the Github repo.](https://github.com/gytdau/directory)
+[danwebb.co](https://danwebb.co) is built using jdown and [React Static](https://github.com/nozzle/react-static) so see the static.config.js file in the [websites github repo](https://github.com/DanWebb/danwebb.co) for a real world example.
 
-This is an experiment. Expect change. Inspired by [Nikita Voloboev](http://wiki.nikitavoloboev.xyz). View [more directories like this.](https://github.com/RichardLitt/meta-knowledge)
+To get started, run `react-static create` and use the `markdown` template.
