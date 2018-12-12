@@ -8,7 +8,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "serve": "serve dist -p 3000",
-    "deploy": "yarn build && rm -r docs && mv dist docs && cp CNAME docs/CNAME && git add docs && git push"
+    "deploy": "yarn build && rm -r docs && mv dist docs && cp CNAME docs/CNAME && git add docs && git add content && git commit -m 'Deploy' && git push"
   },
   "dependencies": {
     "chokidar": "2.0.3",

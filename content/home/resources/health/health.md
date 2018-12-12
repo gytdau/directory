@@ -1,0 +1,1 @@
+Health is the foundation upon which you build the rest of your work. If you're in poor health, it gets harder and harder to do the things you'd like to. And if you're in good shape, that means you have more energy to do demanding work.
