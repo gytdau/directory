@@ -1,0 +1,1 @@
+[How To Travel Full Time](https://www.goodreads.com/book/show/13120059-how-to-travel-full-time?ac=1&from_search=true) by Colin Wright is a short book that has some practical advice for those who want to travel and see the world.
