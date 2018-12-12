@@ -2,11 +2,8 @@ const jdown = require('jdown');
 
 // https://gist.github.com/SonyaMoisset/aa79f51d78b39639430661c03d9b1058#file-title-case-a-sentence-for-loop-wc-js
 function toTitleCase(str) {
-  str = str.toLowerCase().split(' ');
-  for (var i = 0; i < str.length; i++) {
-    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
-  }
-  return str.join(' ');
+  var result = str.replace(/([A-Z])/g, " $1");
+  return result.charAt(0).toUpperCase() + result.slice(1);
 }
 
 export async function getContent() {
@@ -14,6 +11,7 @@ export async function getContent() {
   let newNotes = []
   Object.keys(notes).map(function (key, index) {
     let attributes = notes[key]
+    console.log(notes[key])
     let path = key.split("/")
     let name = path.pop()
     let parent = path.join("/")
@@ -24,7 +22,7 @@ export async function getContent() {
       key.pop()
     }
     key = key.join("/")
-    name = toTitleCase(name.replace(/_/g, ' '));
+    name = toTitleCase(name);
     newNotes.push({
       path: key, name, parent, ...attributes
     })
