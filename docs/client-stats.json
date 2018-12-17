@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "b1bdb3824125e9f9a980",
-  "time": 7035,
+  "hash": "a702f4ccdacd085ca95f",
+  "time": 6376,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Note": [
@@ -20,9 +20,9 @@
     ],
     "main": [
       "main.9c4a8b43.js",
-      "styles.b1bdb382.css",
+      "styles.a702f4cc.css",
       "main.9c4a8b43.js.map",
-      "styles.b1bdb382.css.map"
+      "styles.a702f4cc.css.map"
     ],
     "bootstrap": [
       "bootstrap.f1d65edd.js",
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.b1bdb382.css",
-      "size": 1233,
+      "name": "styles.a702f4cc.css",
+      "size": 1248,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.b1bdb382.css.map",
+      "name": "styles.a702f4cc.css.map",
       "size": 96,
       "chunks": [
         3
@@ -175,9 +175,9 @@
         "bootstrap.f1d65edd.js",
         "bootstrap.f1d65edd.js.map",
         "main.9c4a8b43.js",
-        "styles.b1bdb382.css",
+        "styles.a702f4cc.css",
         "main.9c4a8b43.js.map",
-        "styles.b1bdb382.css.map"
+        "styles.a702f4cc.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -705,9 +705,9 @@
       ],
       "files": [
         "main.9c4a8b43.js",
-        "styles.b1bdb382.css",
+        "styles.a702f4cc.css",
         "main.9c4a8b43.js.map",
-        "styles.b1bdb382.css.map"
+        "styles.a702f4cc.css.map"
       ],
       "hash": "9c4a8b437411b81255e6",
       "parents": [
@@ -2132,9 +2132,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/Prefetch.js",
-          "issuerId": 115,
-          "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
+          "issuerId": 112,
+          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3444,9 +3444,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createBrowserHistory.js",
-          "issuerId": 63,
-          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createHashHistory.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/history/es/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9095,9 +9095,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/Prefetch.js",
-      "issuerId": 115,
-      "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
+      "issuerId": 112,
+      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10407,9 +10407,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createBrowserHistory.js",
-      "issuerId": 63,
-      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createHashHistory.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/history/es/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14907,12 +14907,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 3678,
+          "size": 3693,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "6ca95e62c3ca8e1b7248",
+          "hash": "6f947e463ef9a1bef8a3",
           "parents": [],
           "modules": [
             {
@@ -14921,7 +14921,7 @@
               "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/app.scss",
               "index": 0,
               "index2": 1,
-              "size": 1418,
+              "size": 1433,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -14941,7 +14941,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:IBM Plex Serif,\\\"serif\\\"}h1,h2,h3,h4,h5,h6{font-family:Archivo}.header{height:50vh;background-color:#111;color:#fff}.header,.header.\\\\--secondary{display:flex;align-items:center}.header.\\\\--secondary{height:25vh;background-color:#444}.container{margin-top:3em;margin-bottom:3em}.text{background-color:#eee;min-height:100vh;padding-top:3em;font-size:1.1em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:IBM Plex Serif,\\\"serif\\\"}h1,h2,h3,h4,h5,h6{font-family:Archivo}.header{height:50vh;background-color:#111;color:#fff}.header,.header.\\\\--secondary{display:flex;align-items:center}.header.\\\\--secondary{height:25vh;background-color:#444}.container{margin-top:3em;margin-bottom:3em}.text{background-color:#eee;min-height:100vh;padding-top:3em;font-size:1.1em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -15002,7 +15002,7 @@
           "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/app.scss",
           "index": 0,
           "index2": 1,
-          "size": 1418,
+          "size": 1433,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -15022,7 +15022,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:IBM Plex Serif,\\\"serif\\\"}h1,h2,h3,h4,h5,h6{font-family:Archivo}.header{height:50vh;background-color:#111;color:#fff}.header,.header.\\\\--secondary{display:flex;align-items:center}.header.\\\\--secondary{height:25vh;background-color:#444}.container{margin-top:3em;margin-bottom:3em}.text{background-color:#eee;min-height:100vh;padding-top:3em;font-size:1.1em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:IBM Plex Serif,\\\"serif\\\"}h1,h2,h3,h4,h5,h6{font-family:Archivo}.header{height:50vh;background-color:#111;color:#fff}.header,.header.\\\\--secondary{display:flex;align-items:center}.header.\\\\--secondary{height:25vh;background-color:#444}.container{margin-top:3em;margin-bottom:3em}.text{background-color:#eee;min-height:100vh;padding-top:3em;font-size:1.1em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
