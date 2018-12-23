@@ -11,4 +11,3 @@ Ireland has the misfortune of being one of the countries with the least amount o
 ![Map of sunlight hours.](http://www.city-data.com/forum/attachments/weather/122054d1386546899-solar-irradiation-map-world-solargis-solar-map-dni-world-map)
 
 Sometimes, the lack of sunlight can be really demotivating. So far, what I've found that works is keeping a journal with a list of sequential bullet-pointed tasks for your day, so that there is never any doubt about what's next. The smaller the tasks are the better.
-
