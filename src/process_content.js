@@ -11,7 +11,6 @@ export async function getContent() {
   let newNotes = []
   Object.keys(notes).map(function (key, index) {
     let attributes = notes[key]
-    console.log(notes[key])
     let path = key.split("/")
     let name = path.pop()
     let parent = path.join("/")

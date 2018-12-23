@@ -24,14 +24,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .container {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 .text {
   background-color: #eee;
   min-height: 100vh;
   padding-top: 3em;
   font-size: 1.1em;
+  padding-bottom: 20vh;
 }
 .card {
   margin-bottom: 1em;
@@ -43,4 +44,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .card-container:hover { 
   text-decoration: none !important;
+}
+img {
+  width: 100%;
+}
+h2 {
+  margin: 2rem 0 0.8rem;
+  font-size: 1.8rem;
+}
+h3 {
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin: 2rem 0 0.8rem;
 }
