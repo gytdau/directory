@@ -4,10 +4,22 @@ I try to replace as much of my diet as is convenient with Huel, which is a powde
 | ---------------------- | ------------ |
 | Flavour                | Huel Vanilla |
 | Calories per gram      | 4kcal        |
-| Personal serving size  | 190g         |
 | Calories per serving   | 760kcal      |
 | Calorie daily target   | 3000kcal     |
-| Huel meals per day     | 4            |
+
+| Quantities |                |
+| ---------- | -------------- |
+| 60g        | 240kcal - 1/12 |
+| 90g        | 360kcal - 1/8  |
+| 120g       | 480kcal - 1/6  |
+| 150g       | 600kcal - 1/5  |
+| 190g       | 760kcal - 1/4  |
+
+Sometimes you can feel discomfort, which I think might be due to either:
+
+- Too many calories per serving
+- Too much Huel consumption
+- Eating Huel and closely after eating normal food
 
 Powdered food offers a significant benefit on time savings and nutritional content. Huel usually accomodates for 50% of my calorie intake.
 

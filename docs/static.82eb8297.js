@@ -1402,11 +1402,7 @@ exports.default = function (props) {
         _react2.default.createElement(
           'div',
           { className: 'card-body' },
-          _react2.default.createElement(
-            'h5',
-            { className: 'card-title' },
-            props.note.name
-          )
+          _react2.default.createElement('h5', { className: 'card-title', dangerouslySetInnerHTML: { __html: props.note.name + (props.note.folder > 0 ? " <div class='size-indicator text-muted'>" + props.note.folder + "</div>" : "") } })
         )
       )
     )
@@ -1423,7 +1419,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Arc
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);", ""]);
 
 // module
-exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"IBM Plex Serif\", \"serif\"; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Archivo\"; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header.\\--secondary {\n    height: 25vh;\n    display: flex;\n    align-items: center;\n    background-color: #444; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  background-color: #eee;\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.1em;\n  padding-bottom: 20vh; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\nh2 {\n  margin: 2rem 0 0.8rem;\n  font-size: 1.8rem; }\n\nh3 {\n  text-transform: uppercase;\n  opacity: 0.7;\n  font-size: 1.4rem;\n  margin: 2rem 0 0.8rem; }\n", ""]);
+exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"IBM Plex Serif\", \"serif\"; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Archivo\"; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header.\\--secondary {\n    height: 25vh;\n    display: flex;\n    align-items: center;\n    background-color: #444; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  background-color: #eee;\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.1em;\n  padding-bottom: 20vh; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n  .card-container:hover .size-indicator {\n    opacity: 1; }\n\nimg {\n  width: 100%; }\n\nh2 {\n  margin: 2rem 0 0.8rem;\n  font-size: 1.8rem; }\n\nh3 {\n  text-transform: uppercase;\n  opacity: 0.7;\n  font-size: 1.4rem;\n  margin: 2rem 0 0.8rem; }\n\n.size-indicator {\n  font-family: \"Archivo\";\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right;\n  opacity: 0;\n  transition: opacity 0.1s; }\n", ""]);
 
 // exports
 
@@ -1513,4 +1509,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.3ab9f910.js.map
+//# sourceMappingURL=static.82eb8297.js.map
