@@ -23,12 +23,33 @@ export async function getContent() {
     key = key.join("/")
     name = toTitleCase(name);
     newNotes.push({
-      path: key, name, parent, ...attributes
+      path: key, name, parent, ...attributes, folder: 0
     })
   });
+  for (var i = 0; i < newNotes.length; i++) {
+    var needle = newNotes[i].parent
+    for (var q = 0; q < newNotes.length; q++) {
+      if (newNotes[q].path == needle) {
+        // do nesting
+        nestedAdd(newNotes, q)
+      }
+    }
+  }
   return newNotes
 }
 
+// Recursively compute folder size
+function nestedAdd(newNotes, q) {
+  newNotes[q].folder += 1
+  if (newNotes[q].parent != "home") {
+    var needle = newNotes[q].parent
+    for (var q = 0; q < newNotes.length; q++) {
+      if (newNotes[q].path == needle) {
+        nestedAdd(newNotes, q)
+      }
+    }
+  }
+}
 export function getRoutes(notes) {
   return notes.map(note => {
     return {
