@@ -16,3 +16,10 @@ I want to read more. I should start with fiction, but sometimes I lose track of 
 - On the Shortness Of Life
 - When Breath Becomes Air
 - Man's Search For Meaning
+
+### Recommendations from Ryan Holiday
+
+- A Calendar of Wisdom: Daily Thoughts To Nourish the Soul
+- The Laws of Human Nature
+- The Fall
+
