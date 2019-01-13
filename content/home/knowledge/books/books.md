@@ -23,3 +23,7 @@ I want to read more. I should start with fiction, but sometimes I lose track of 
 - The Laws of Human Nature
 - The Fall
 
+#### 2017
+
+- Montaigne & Magellan by Stefan Zweig
+

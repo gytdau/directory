@@ -6,5 +6,9 @@ We are persuaded into these kinds of purchases by advertising, our social struct
 
 Some difficult problems can be solved through money, but everything else is  an entirely different type of engineering challenge. 
 
+## Reading material
 
+Clickbaity, but filled with very good ideas: [How to Save $100,000 by Age 25](https://thedeepdish.org/save-100000-age-25/)
+
+More good ideas by the same author: [The Beginner’s Guide to Becoming a Badass Investor](https://thedeepdish.org/beginners-guide-becoming-badass-investor/)
 
