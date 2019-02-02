@@ -16,11 +16,30 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   background-color: $dark;
   color: white;
-  &.--secondary {
-    height: 25vh;
-    display: flex;
-    align-items: center;
-    background-color: #444;
+  &--secondary {
+    &--essay {
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      .container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+.essay-titlecap {
+  p:first-child:first-letter {
+    color: #903;
+    float: left;
+    font-size: 5em;
+    line-height: 0.7em;
+    padding-right: 0.2em;
+    padding-top: 0.1em;
+    
   }
 }
 .container {
@@ -28,11 +47,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 3em;
 }
 .text {
-  background-color: #eee;
+  background-color: #f7f7f7;
   min-height: 100vh;
   padding-top: 3em;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  line-height: 1.7;
   padding-bottom: 20vh;
+}
+p {
+  margin-bottom: 2em;
 }
 .card {
   margin-bottom: 1em;
@@ -73,4 +96,8 @@ h3 {
   text-transform: capitalize;
   padding: 0.1em 0.7em 0.2em 0.7em;
   margin-right: 0.5em;
+}
+
+.essay-masthead {
+
 }
