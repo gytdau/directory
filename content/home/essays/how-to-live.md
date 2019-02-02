@@ -55,4 +55,4 @@ When you're making decisions, whether you know you are or not, it's important to
 
 I can't give you a map of how to live, but at least you get a compass to point you in the right direction. And beyond that, all the mountains, valleys, and obstacles - they're yours to climb.
 
-> Thanks for reading a draft version of this essay. If you have any comments, please take the time to email me about them. This essay will probably undergo more changes.
+_Thanks to Stephen McAleese for reading a draft of this._
