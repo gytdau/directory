@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "3.12.0",
   "hash": "f6b32c566cf0cdf78c2b",
-  "time": 6259,
+  "time": 6553,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Note": [
@@ -3444,9 +3444,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createHashHistory.js",
-          "issuerId": 64,
-          "issuerName": "./node_modules/history/es/createHashHistory.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createBrowserHistory.js",
+          "issuerId": 63,
+          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -10407,9 +10407,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createHashHistory.js",
-      "issuerId": 64,
-      "issuerName": "./node_modules/history/es/createHashHistory.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createBrowserHistory.js",
+      "issuerId": 63,
+      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,

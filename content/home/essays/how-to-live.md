@@ -1,7 +1,6 @@
 ---
 type: essay
 subtitle: The first principles of a life well lived.
-published: false
 
 ---
 

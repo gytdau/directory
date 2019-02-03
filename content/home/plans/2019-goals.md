@@ -1,3 +1,5 @@
+
+
 # 1. Explore
 
 I have a lot of freedom right now, which will be severely restricted in a few years. This year is the perfect time to spread myself wider and learn more about the world.
