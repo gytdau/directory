@@ -1,4 +1,4 @@
-Some of my current active projects.
+This folder contains my projects and other work.
 
 ## What do you work on?
 
