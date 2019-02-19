@@ -10,4 +10,4 @@ Clone this repository and set it up as a Github repo using Github Pages. Need mo
 
 ## Sharing
 
-All text uncopyrighted. If you're planning to attribute, consider choosing a better source.
+All text and works uncopyrighted. If you're planning to attribute, consider choosing a better source.
