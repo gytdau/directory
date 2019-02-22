@@ -1,1 +1,1 @@
-I am gay. This means that to have a fulfilling emotional life and base my opinions in rationality, I need to understand a lot of aspects of the culture and experience of gay people. 
+I am gay. To avoid succumbing to cultural bias and unproductive ways of thinking, I'm trying to figure out more about what this means.

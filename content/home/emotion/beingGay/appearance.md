@@ -1,8 +1,4 @@
-In popular culture, there is a concept of a 'gaydar' - the ability to detect the stereotype of queer people.
-
-In studies, this intuitive sense perfomed higher than chance when the subjects were shown people who were conforming to the stereotypes. People who broke stereotypes yielded less accurate assesment by the subjects.
-
-Many gay people do not conform to the gay stereotype.
+In popular culture, a gaydar is an intuitive sense to be able to detect gay people. It relies on stereotypical cues, and has some basis in science, but does not work when people do not conform to sterotypes.
 
 ## Speech
 

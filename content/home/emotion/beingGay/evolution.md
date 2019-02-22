@@ -1,4 +1,13 @@
-Hypotheses for the impact of the post-natal social environment on sexual orientation are weak, especially for males. [(1)](https://en.wikipedia.org/wiki/Biology_and_sexual_orientation#cite_note-Bailey-4) This means that sexual orientation is mostly determined by genetics.
+Sexual orientation is based on genetics, and is not changed much after you are born by any factors.
 
-The most convincing reason for a gay gene to be favoured by evolution is called the gay uncle hypothesis. It is believed that gay people, although not being able to reproduce directly, conferred a large advantage to family units, as they did not need to produce children when resources were scarce.
+## Gay trait
 
+Gay people are not able to reproduce. However, a trait which made a small amount of the population gay is nevertheless selected.
+
+One theory is that gay people act as caretakers for the family or tribe, and do not stress resources further by making more children.
+
+## Prevalance of the gay trait
+
+The specifics are not known due to cultural biases and distinctions. People in some cultures do not identify as gay while having routine same-sex sexual interactions.
+
+In general, between 2% and 10% of people are gay.

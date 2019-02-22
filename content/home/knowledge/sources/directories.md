@@ -7,6 +7,4 @@ Sourced from [Richard Litt's collection repo](https://github.com/RichardLitt/met
 - [Daniel Schildt](https://github.com/d2s/knowledge)
 - [Stephen Whitmore](https://github.com/noffle/wisdom)
 - [Yoshua Wuyts](https://yoshuawuyts.gitbooks.io/knowledge/content/)
-- [Stephen McAleese](http://directory.stephenmcaleese.net)*
-
-*Some conflict of interest present.
+- [Stephen McAleese](https://stephenmcaleese11.gitbook.io/knowledge/)
