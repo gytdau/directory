@@ -26,8 +26,6 @@ Travel, not a vacation. This doesn't have to be comfortable, but it should provi
 
 ## Plan
 
-I'm planning to buy a two month continous ticket, which is only 1.1x the price of a one month ticket. This totals to 572 euro. There could be sales in spring.
+For the physical movement around, see Logistics.
 
-I don't know how to get from Ireland to mainland Europe. This could involve a ferry to either mainland, or to the UK, and then rail from there.
-
-I should find a good travel book to load onto a Kindle.
+I should read more philosophy about travel. 

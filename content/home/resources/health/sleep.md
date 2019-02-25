@@ -12,7 +12,7 @@ Another factor could be that it's an issue with the winter season, caused by the
 
 The time I go to sleep tends to drift in ten minute increments until I force it to move backwards again. This points further towards the hormone theory, where my body is trying to adjust.
 
-When I'm not in college, I could try to shift back to the last schedule I know which worked - which was 4am to 12pm.
+The best schedule which works right now is going to sleep somewhere between 2am and 4am.
 
 This could work:
 
