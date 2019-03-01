@@ -10,6 +10,6 @@ And while you aim to remain level-headed no matter the situation, you can attach
 
 ## Setbacks
 
-In _The Obstacle is The Way_ by Ryan HolidaSome days can be bad days where I can't get enough motivation toy, a book on stoic thinking, Holiday describes the benefits of emotionally disengaging from setbacks and failiures. Stoicism posits that since displaying the greatest virtues at all time should be our goal, any great misfortune is an opportunity to display courage, level-headedness, and to prove our mettle.
+In _The Obstacle is The Way_ by Ryan Holiday, a book on stoic thinking, Holiday describes the benefits of emotionally disengaging from setbacks and failiures. Stoicism posits that since displaying the greatest virtues at all time should be our goal, any great misfortune is an opportunity to display courage, level-headedness, and to prove our mettle.
 
 A disaster on it's own is bad enough, but a disaster and you loosing your composure is far worse. 

@@ -405,13 +405,24 @@ var _NoteCards = __webpack_require__(8);
 
 var _NoteCards2 = _interopRequireDefault(_NoteCards);
 
+var _tipograph = __webpack_require__(24);
+
+var _tipograph2 = _interopRequireDefault(_tipograph);
+
+var _htmlEntities = __webpack_require__(25);
+
+var _htmlEntities2 = _interopRequireDefault(_htmlEntities);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   var children_notes = _ref.children_notes,
       note = _ref.note;
 
-  console.log(children_notes);
+  var typeset = (0, _tipograph2.default)();
+  var entities = new _htmlEntities2.default.AllHtmlEntities();
+  var contents = typeset(entities.decode(note.contents));
+  console.log(contents);
   if (note.type == "essay") {
     return _react2.default.createElement(
       'div',
@@ -443,7 +454,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
           _react2.default.createElement(
             'div',
             { 'class': 'row' },
-            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: note.contents } })
+            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })
           )
         )
       )
@@ -479,7 +490,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
         _react2.default.createElement(
           'div',
           { 'class': 'row' },
-          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: note.contents } })
+          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })
         )
       )
     )
@@ -558,7 +569,7 @@ var _reactStaticRoutes = __webpack_require__(15);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(24);
+__webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1459,21 +1470,33 @@ exports.default = function (props) {
 
 /***/ }),
 /* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("tipograph");
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports) {
+
+module.exports = require("html-entities");
+
+/***/ }),
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(25)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Archivo:400,700|IBM+Plex+Serif:400,400i,600i,700);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);", ""]);
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);", ""]);
 
 // module
-exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"IBM Plex Serif\", \"serif\"; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Archivo\"; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header--secondary--essay {\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    display: flex; }\n    .header--secondary--essay .container {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      flex-direction: column; }\n\n.essay-titlecap p:first-child:first-letter {\n  color: #903;\n  float: left;\n  font-size: 5em;\n  line-height: 0.7em;\n  padding-right: 0.2em;\n  padding-top: 0.1em; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  background-color: #f7f7f7;\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.2em;\n  line-height: 1.7;\n  padding-bottom: 20vh; }\n\np {\n  margin-bottom: 2em; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\nh2 {\n  margin: 2rem 0 0.8rem;\n  font-size: 1.8rem; }\n\nh3 {\n  text-transform: uppercase;\n  opacity: 0.7;\n  font-size: 1.4rem;\n  margin: 2rem 0 0.8rem; }\n\n.size-indicator {\n  font-family: \"Archivo\";\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right; }\n\n.tag {\n  display: inline-block;\n  border-radius: 100px;\n  background-color: #0074D9;\n  color: white;\n  text-transform: capitalize;\n  padding: 0.1em 0.7em 0.2em 0.7em;\n  margin-right: 0.5em; }\n", ""]);
+exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"Archivo\"; }\n\nh2, h3, h4 {\n  font-weight: bold; }\n\nh2 {\n  font-size: 1.8rem; }\n\nh3 {\n  color: #646871;\n  font-size: 1.4rem; }\n\nh2, h3 {\n  margin: 4rem 0 1rem; }\n\nblockquote {\n  border-left: 0;\n  font-size: 0.9em;\n  color: #646871; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header--secondary--essay {\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    display: flex; }\n    .header--secondary--essay .container {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      flex-direction: column; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.2em;\n  line-height: 1.7;\n  padding-bottom: 20vh; }\n\np {\n  margin-bottom: 2em; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\n.size-indicator {\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right; }\n\n.tag {\n  display: inline-block;\n  border-radius: 100px;\n  background-color: #0074D9;\n  color: white;\n  text-transform: capitalize;\n  padding: 0.1em 0.7em 0.2em 0.7em;\n  margin-right: 0.5em; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports) {
 
 /*
@@ -1557,4 +1580,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.39b1a2b7.js.map
+//# sourceMappingURL=static.42388a6d.js.map
