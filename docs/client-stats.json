@@ -2,13 +2,13 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "4596b044dd752bf0ff08",
-  "time": 8350,
+  "hash": "cd238feac727b2aa3742",
+  "time": 8166,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Note": [
-      "templates/src/containers/Note.1707cae2.js",
-      "templates/src/containers/Note.1707cae2.js.map"
+      "templates/src/containers/Note.f7013180.js",
+      "templates/src/containers/Note.f7013180.js.map"
     ],
     "src/containers/Home": [
       "templates/src/containers/Home.a3d93270.js",
@@ -20,19 +20,19 @@
     ],
     "main": [
       "main.2030ef95.js",
-      "styles.4596b044.css",
+      "styles.cd238fea.css",
       "main.2030ef95.js.map",
-      "styles.4596b044.css.map"
+      "styles.cd238fea.css.map"
     ],
     "bootstrap": [
-      "bootstrap.8b399847.js",
-      "bootstrap.8b399847.js.map"
+      "bootstrap.55a1c7b5.js",
+      "bootstrap.55a1c7b5.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Note.1707cae2.js.map",
-      "size": 668995,
+      "name": "templates/src/containers/Note.f7013180.js.map",
+      "size": 670562,
       "chunks": [
         0
       ],
@@ -42,8 +42,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Note.1707cae2.js",
-      "size": 126095,
+      "name": "templates/src/containers/Note.f7013180.js",
+      "size": 126435,
       "chunks": [
         0
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.8b399847.js",
+      "name": "bootstrap.55a1c7b5.js",
       "size": 1542,
       "chunks": [
         4
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.4596b044.css",
-      "size": 1722,
+      "name": "styles.cd238fea.css",
+      "size": 1962,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.4596b044.css.map",
+      "name": "styles.cd238fea.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.8b399847.js.map",
+      "name": "bootstrap.55a1c7b5.js.map",
       "size": 14433,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.8b399847.js",
-        "bootstrap.8b399847.js.map",
+        "bootstrap.55a1c7b5.js",
+        "bootstrap.55a1c7b5.js.map",
         "main.2030ef95.js",
-        "styles.4596b044.css",
+        "styles.cd238fea.css",
         "main.2030ef95.js.map",
-        "styles.4596b044.css.map"
+        "styles.cd238fea.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 265353,
+      "size": 266016,
       "names": [
         "src/containers/Note"
       ],
       "files": [
-        "templates/src/containers/Note.1707cae2.js",
-        "templates/src/containers/Note.1707cae2.js.map"
+        "templates/src/containers/Note.f7013180.js",
+        "templates/src/containers/Note.f7013180.js.map"
       ],
-      "hash": "1707cae234b6fcc451c3",
+      "hash": "f7013180181cb2455927",
       "parents": [
         3
       ],
@@ -208,7 +208,7 @@
           "name": "./src/containers/Note.js",
           "index": 136,
           "index2": 169,
-          "size": 2962,
+          "size": 3625,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -247,7 +247,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nvar _tipograph = require('tipograph');\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _htmlEntities = require('html-entities');\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = typeset(entities.decode(note.contents));\n  console.log(contents);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'header--secondary header--secondary--essay' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            'h2',\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'text' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'row' },\n            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header--secondary' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h1',\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })\n        )\n      )\n    )\n  );\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nvar _tipograph = require('tipograph');\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _htmlEntities = require('html-entities');\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction toTitleCase(str) {\n  var result = str.replace(/([A-Z])/g, \" $1\");\n  return result.charAt(0).toUpperCase() + result.slice(1);\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = typeset(entities.decode(note.contents));\n  var parent_path = \"/\" + note.parent;\n  var parent = parent_path.split(\"/\").pop();\n  parent = toTitleCase(parent);\n  if (parent_path == \"/home\") {\n    parent_path = \"/\";\n  }\n  console.log(note);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'header--secondary header--secondary--essay' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            'h2',\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'text' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'row' },\n            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header--secondary' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h2',\n          { className: 'back-button' },\n          _react2.default.createElement(\n            'a',\n            { href: parent_path },\n            parent,\n            ' ',\n            _react2.default.createElement('i', { className: 'mdi mdi-subdirectory-arrow-left back-icon' })\n          )\n        ),\n        _react2.default.createElement(\n          'h1',\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })\n        )\n      )\n    )\n  );\n});"
         },
         {
           "id": 135,
@@ -653,9 +653,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Note.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "issuerId": 50,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -701,9 +701,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Note.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "issuerId": 50,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2179,9 +2179,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Note.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "issuerId": 50,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2227,9 +2227,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Note.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "issuerId": 50,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2404,9 +2404,9 @@
       ],
       "files": [
         "main.2030ef95.js",
-        "styles.4596b044.css",
+        "styles.cd238fea.css",
         "main.2030ef95.js.map",
-        "styles.4596b044.css.map"
+        "styles.cd238fea.css.map"
       ],
       "hash": "2030ef95b4de730f08b4",
       "parents": [
@@ -9473,10 +9473,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.8b399847.js",
-        "bootstrap.8b399847.js.map"
+        "bootstrap.55a1c7b5.js",
+        "bootstrap.55a1c7b5.js.map"
       ],
-      "hash": "8b399847e3068c86ef86",
+      "hash": "55a1c7b51004188cbf88",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -13430,7 +13430,7 @@
       "name": "./src/containers/Note.js",
       "index": 136,
       "index2": 169,
-      "size": 2962,
+      "size": 3625,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13469,7 +13469,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nvar _tipograph = require('tipograph');\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _htmlEntities = require('html-entities');\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = typeset(entities.decode(note.contents));\n  console.log(contents);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'header--secondary header--secondary--essay' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            'h2',\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'text' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'row' },\n            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header--secondary' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h1',\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })\n        )\n      )\n    )\n  );\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nvar _tipograph = require('tipograph');\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _htmlEntities = require('html-entities');\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction toTitleCase(str) {\n  var result = str.replace(/([A-Z])/g, \" $1\");\n  return result.charAt(0).toUpperCase() + result.slice(1);\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = typeset(entities.decode(note.contents));\n  var parent_path = \"/\" + note.parent;\n  var parent = parent_path.split(\"/\").pop();\n  parent = toTitleCase(parent);\n  if (parent_path == \"/home\") {\n    parent_path = \"/\";\n  }\n  console.log(note);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'header--secondary header--secondary--essay' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            'h2',\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'text' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'row' },\n            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header--secondary' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h2',\n          { className: 'back-button' },\n          _react2.default.createElement(\n            'a',\n            { href: parent_path },\n            parent,\n            ' ',\n            _react2.default.createElement('i', { className: 'mdi mdi-subdirectory-arrow-left back-icon' })\n          )\n        ),\n        _react2.default.createElement(\n          'h1',\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })\n        )\n      )\n    )\n  );\n});"
     },
     {
       "id": 53,
@@ -17064,9 +17064,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
-      "issuerId": 52,
-      "issuerName": "./src/containers/Note.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+      "issuerId": 50,
+      "issuerName": "./src/containers/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17112,9 +17112,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
-      "issuerId": 52,
-      "issuerName": "./src/containers/Note.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+      "issuerId": 50,
+      "issuerName": "./src/containers/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -18521,12 +18521,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 4163,
+          "size": 4438,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "bfe87e86cf6914ac071a",
+          "hash": "fae270776207ee49ffe8",
           "parents": [],
           "modules": [
             {
@@ -18535,7 +18535,7 @@
               "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/app.scss",
               "index": 0,
               "index2": 1,
-              "size": 1903,
+              "size": 2178,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -18555,7 +18555,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:Archivo}h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:50vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container{padding-top:3em;padding-bottom:3em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\nexports.push([module.id, \"@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:Archivo}h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:50vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container{padding-top:3em;padding-bottom:3em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}.back-button{font-weight:400}.back-button a:hover{text-decoration:none}.back-icon:before{transform:rotate(-90deg) translateX(-4px);display:inline-block}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -18616,7 +18616,7 @@
           "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/app.scss",
           "index": 0,
           "index2": 1,
-          "size": 1903,
+          "size": 2178,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -18636,7 +18636,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:Archivo}h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:50vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container{padding-top:3em;padding-bottom:3em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\nexports.push([module.id, \"@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:Archivo}h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:50vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container{padding-top:3em;padding-bottom:3em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}.back-button{font-weight:400}.back-button a:hover{text-decoration:none}.back-icon:before{transform:rotate(-90deg) translateX(-4px);display:inline-block}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,

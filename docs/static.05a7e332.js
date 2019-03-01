@@ -415,6 +415,11 @@ var _htmlEntities2 = _interopRequireDefault(_htmlEntities);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function toTitleCase(str) {
+  var result = str.replace(/([A-Z])/g, " $1");
+  return result.charAt(0).toUpperCase() + result.slice(1);
+}
+
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   var children_notes = _ref.children_notes,
       note = _ref.note;
@@ -422,7 +427,13 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   var typeset = (0, _tipograph2.default)();
   var entities = new _htmlEntities2.default.AllHtmlEntities();
   var contents = typeset(entities.decode(note.contents));
-  console.log(contents);
+  var parent_path = "/" + note.parent;
+  var parent = parent_path.split("/").pop();
+  parent = toTitleCase(parent);
+  if (parent_path == "/home") {
+    parent_path = "/";
+  }
+  console.log(note);
   if (note.type == "essay") {
     return _react2.default.createElement(
       'div',
@@ -469,6 +480,17 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       _react2.default.createElement(
         'div',
         { className: 'container' },
+        _react2.default.createElement(
+          'h2',
+          { className: 'back-button' },
+          _react2.default.createElement(
+            'a',
+            { href: parent_path },
+            parent,
+            ' ',
+            _react2.default.createElement('i', { className: 'mdi mdi-subdirectory-arrow-left back-icon' })
+          )
+        ),
         _react2.default.createElement(
           'h1',
           null,
@@ -1488,9 +1510,10 @@ exports = module.exports = __webpack_require__(27)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);", ""]);
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);", ""]);
+exports.push([module.i, "@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);", ""]);
 
 // module
-exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"Archivo\"; }\n\nh2, h3, h4 {\n  font-weight: bold; }\n\nh2 {\n  font-size: 1.8rem; }\n\nh3 {\n  color: #646871;\n  font-size: 1.4rem; }\n\nh2, h3 {\n  margin: 4rem 0 1rem; }\n\nblockquote {\n  border-left: 0;\n  font-size: 0.9em;\n  color: #646871; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header--secondary--essay {\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    display: flex; }\n    .header--secondary--essay .container {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      flex-direction: column; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.2em;\n  line-height: 1.7;\n  padding-bottom: 20vh; }\n\np {\n  margin-bottom: 2em; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\n.size-indicator {\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right; }\n\n.tag {\n  display: inline-block;\n  border-radius: 100px;\n  background-color: #0074D9;\n  color: white;\n  text-transform: capitalize;\n  padding: 0.1em 0.7em 0.2em 0.7em;\n  margin-right: 0.5em; }\n", ""]);
+exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"Archivo\"; }\n\nh2, h3, h4 {\n  font-weight: bold; }\n\nh2 {\n  font-size: 1.8rem; }\n\nh3 {\n  color: #646871;\n  font-size: 1.4rem; }\n\nh2, h3 {\n  margin: 4rem 0 1rem; }\n\nblockquote {\n  border-left: 0;\n  font-size: 0.9em;\n  color: #646871; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header--secondary--essay {\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    display: flex; }\n    .header--secondary--essay .container {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      flex-direction: column; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.2em;\n  line-height: 1.7;\n  padding-bottom: 20vh; }\n\np {\n  margin-bottom: 2em; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\n.size-indicator {\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right; }\n\n.tag {\n  display: inline-block;\n  border-radius: 100px;\n  background-color: #0074D9;\n  color: white;\n  text-transform: capitalize;\n  padding: 0.1em 0.7em 0.2em 0.7em;\n  margin-right: 0.5em; }\n\n.back-button {\n  font-weight: normal; }\n  .back-button a:hover {\n    text-decoration: none; }\n\n.back-icon:before {\n  transform: rotate(-90deg) translateX(-4px);\n  display: inline-block; }\n", ""]);
 
 // exports
 
@@ -1580,4 +1603,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.42388a6d.js.map
+//# sourceMappingURL=static.05a7e332.js.map
