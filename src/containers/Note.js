@@ -2,9 +2,14 @@ import React from 'react'
 import { withRouteData, Link } from 'react-static'
 import convert from 'htmr'
 import NoteCards from './NoteCards'
+import tipograph from 'tipograph'
+import htmlentities from 'html-entities'
 
 export default withRouteData(({ children_notes, note }) => {
-  console.log(children_notes)
+  let typeset = tipograph()
+  const entities = new htmlentities.AllHtmlEntities();
+  let contents = typeset(entities.decode(note.contents))
+  console.log(contents)
   if (note.type == "essay") {
     return (<div>
       <div className="header--secondary header--secondary--essay">
@@ -16,7 +21,7 @@ export default withRouteData(({ children_notes, note }) => {
       <div className="text">
         <div className="container">
           <div class="row">
-            <div class="col-md-8 offset-md-2 essay-titlecap" dangerouslySetInnerHTML={{ __html: note.contents }} />
+            <div class="col-md-8 offset-md-2 essay-titlecap" dangerouslySetInnerHTML={{ __html: contents }} />
           </div>
         </div>
       </div>
@@ -35,7 +40,7 @@ export default withRouteData(({ children_notes, note }) => {
       <div className="text">
         <div className="container">
           <div class="row">
-            <div class="col-md-8 offset-md-2" dangerouslySetInnerHTML={{ __html: note.contents }} />
+            <div class="col-md-8 offset-md-2" dangerouslySetInnerHTML={{ __html: contents }} />
           </div>
         </div>
       </div>

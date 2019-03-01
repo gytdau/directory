@@ -7,11 +7,23 @@ $dark: #111111;
 * {
   font-family: "Archivo";
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Archivo"
-}
 h2, h3, h4 {
   font-weight: bold;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  color: #646871;
+  font-size: 1.4rem;
+}
+h2, h3 {
+  margin: 4rem 0 1rem;
+}
+blockquote {
+  border-left: 0;
+  font-size: 0.9em;
+  color: #646871;
 }
 .header {
   height: 50vh;
@@ -62,23 +74,11 @@ p {
 img {
   width: 100%;
 }
-h2 {
-  font-size: 1.8rem;
-}
-h3 {
-  color: #646871;
-  font-size: 1.4rem;
-}
-h2, h3 {
-  margin: 4rem 0 1rem;
-}
 .size-indicator {
-  font-family: "Archivo";
   font-size: 0.8em;
   margin: 0.3em;
   float: right;
 }
-
 .tag {
   display: inline-block;
   border-radius: 100px;
