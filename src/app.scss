@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700');
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+@import url('https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css');
 @import "markdown.scss";
 
 $dark: #111111;
@@ -87,4 +88,17 @@ img {
   text-transform: capitalize;
   padding: 0.1em 0.7em 0.2em 0.7em;
   margin-right: 0.5em;
+}
+.back-button {
+  font-weight: normal;
+  a {
+    &:hover {
+      text-decoration: none;
+
+    }
+  }
+}
+.back-icon:before {
+  transform: rotate(-90deg) translateX(-4px);
+  display: inline-block;
 }

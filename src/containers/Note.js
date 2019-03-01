@@ -5,11 +5,22 @@ import NoteCards from './NoteCards'
 import tipograph from 'tipograph'
 import htmlentities from 'html-entities'
 
+function toTitleCase(str) {
+  var result = str.replace(/([A-Z])/g, " $1");
+  return result.charAt(0).toUpperCase() + result.slice(1);
+}
+
 export default withRouteData(({ children_notes, note }) => {
   let typeset = tipograph()
   const entities = new htmlentities.AllHtmlEntities();
   let contents = typeset(entities.decode(note.contents))
-  console.log(contents)
+  let parent_path = "/" + note.parent
+  let parent = parent_path.split("/").pop()
+  parent = toTitleCase(parent)
+  if(parent_path == "/home") {
+    parent_path = "/"
+  }
+  console.log(note)
   if (note.type == "essay") {
     return (<div>
       <div className="header--secondary header--secondary--essay">
@@ -31,6 +42,7 @@ export default withRouteData(({ children_notes, note }) => {
     <div>
       <div className="header--secondary">
         <div className="container">
+          <h2 className="back-button"><a href={parent_path}>{parent} <i className="mdi mdi-subdirectory-arrow-left back-icon"/></a></h2>
           <h1>{note.name}</h1>
         </div>
       </div>
