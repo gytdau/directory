@@ -1,8 +1,6 @@
-import React from 'react'
-import { withRouteData } from 'react-static'
-import convert from 'htmr'
-import NoteCards from './NoteCards'
-//
+import React from 'react';
+import { withRouteData } from 'react-static';
+import NoteCards from './NoteCards';
 
 export default withRouteData(({ children_notes }) => {
   console.log(children_notes)
@@ -13,7 +11,7 @@ export default withRouteData(({ children_notes }) => {
           <h1>Directory</h1>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-padded">
         <NoteCards notes={children_notes} />
       </div>
     </div>

@@ -1,10 +1,9 @@
-import React from 'react'
-import { Router, Link } from 'react-static'
-import { hot } from 'react-hot-loader'
-//
-import Routes from 'react-static-routes'
+import React from 'react';
+import { hot } from 'react-hot-loader';
+import { Router } from 'react-static';
+import Routes from 'react-static-routes';
+import './app.scss';
 
-import './app.scss'
 
 const App = () => (
   <Router>

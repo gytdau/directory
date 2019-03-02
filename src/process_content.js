@@ -22,6 +22,7 @@ export async function getContent() {
     }
     key = key.join("/")
     name = toTitleCase(name);
+    console.log(name)
     newNotes.push({
       path: key, name, parent, ...attributes, folder: 0
     })

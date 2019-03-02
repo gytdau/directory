@@ -1,9 +1,8 @@
-import React from 'react'
-import { withRouteData, Link } from 'react-static'
-import convert from 'htmr'
-import NoteCards from './NoteCards'
-import tipograph from 'tipograph'
-import htmlentities from 'html-entities'
+import htmlentities from 'html-entities';
+import React from 'react';
+import { withRouteData, Link } from 'react-static';
+import tipograph from 'tipograph';
+import NoteCards from './NoteCards';
 
 function toTitleCase(str) {
   var result = str.replace(/([A-Z])/g, " $1");
@@ -42,7 +41,7 @@ export default withRouteData(({ children_notes, note }) => {
     <div>
       <div className="header--secondary">
         <div className="container">
-          <h2 className="back-button"><a href={parent_path}>{parent} <i className="mdi mdi-subdirectory-arrow-left back-icon"/></a></h2>
+          <h2 className="back-button"><Link to={parent_path}>{parent} <i className="mdi mdi-subdirectory-arrow-left back-icon"/></Link></h2>
           <h1>{note.name}</h1>
         </div>
       </div>
