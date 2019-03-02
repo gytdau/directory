@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -259,22 +259,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(1);
 
-var _htmr = __webpack_require__(7);
-
-var _htmr2 = _interopRequireDefault(_htmr);
-
-var _NoteCards = __webpack_require__(8);
+var _NoteCards = __webpack_require__(7);
 
 var _NoteCards2 = _interopRequireDefault(_NoteCards);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//
-
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   var children_notes = _ref.children_notes;
 
-  console.log(children_notes);
   return _react2.default.createElement(
     'div',
     null,
@@ -293,20 +286,51 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
     ),
     _react2.default.createElement(
       'div',
-      { className: 'container' },
+      { className: 'container container-padded' },
       _react2.default.createElement(_NoteCards2.default, { notes: children_notes })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'text' },
+      _react2.default.createElement(
+        'div',
+        { className: 'container' },
+        _react2.default.createElement(
+          'div',
+          { 'class': 'row' },
+          _react2.default.createElement(
+            'div',
+            { 'class': 'col-md-8 offset-md-2' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Information wants to be free, and thoughts deserve to be open.'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Directory is a project to open-source my thoughts and build my life with transparency. We\'re not good at thinking, but consistent writing and reflection can hammer our thoughts into obeying rationality and logic. I\'m updating Directory constantly, and you can read everything as I go.'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Comment on my thoughts by ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/gytdau/directory/issues/new' },
+                'creating an issue'
+              ),
+              '. Steal whatever you like, no permission or attribution required.'
+            )
+          )
+        )
+      )
     )
   );
 });
 
 /***/ }),
 /* 7 */
-/***/ (function(module, exports) {
-
-module.exports = require("htmr");
-
-/***/ }),
-/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -320,7 +344,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _NoteCard = __webpack_require__(23);
+var _NoteCard = __webpack_require__(22);
 
 var _NoteCard2 = _interopRequireDefault(_NoteCard);
 
@@ -337,7 +361,7 @@ exports.default = function (props) {
 };
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -352,8 +376,6 @@ var _react = __webpack_require__(0);
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-//
 
 exports.default = function () {
   return _react2.default.createElement(
@@ -381,7 +403,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -391,27 +413,23 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _htmlEntities = __webpack_require__(23);
+
+var _htmlEntities2 = _interopRequireDefault(_htmlEntities);
+
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(1);
 
-var _htmr = __webpack_require__(7);
-
-var _htmr2 = _interopRequireDefault(_htmr);
-
-var _NoteCards = __webpack_require__(8);
-
-var _NoteCards2 = _interopRequireDefault(_NoteCards);
-
 var _tipograph = __webpack_require__(24);
 
 var _tipograph2 = _interopRequireDefault(_tipograph);
 
-var _htmlEntities = __webpack_require__(25);
+var _NoteCards = __webpack_require__(7);
 
-var _htmlEntities2 = _interopRequireDefault(_htmlEntities);
+var _NoteCards2 = _interopRequireDefault(_NoteCards);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -484,8 +502,8 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
           'h2',
           { className: 'back-button' },
           _react2.default.createElement(
-            'a',
-            { href: parent_path },
+            _reactStatic.Link,
+            { to: parent_path },
             parent,
             ' ',
             _react2.default.createElement('i', { className: 'mdi mdi-subdirectory-arrow-left back-icon' })
@@ -520,7 +538,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
 });
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -534,11 +552,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(12);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(13);
+var _App = __webpack_require__(12);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -563,13 +581,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -583,19 +601,18 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactHotLoader = __webpack_require__(13);
+
 var _reactStatic = __webpack_require__(1);
 
-var _reactHotLoader = __webpack_require__(14);
-
-var _reactStaticRoutes = __webpack_require__(15);
+var _reactStaticRoutes = __webpack_require__(14);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(26);
+__webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//
 var App = function App() {
   return _react2.default.createElement(
     _reactStatic.Router,
@@ -616,13 +633,13 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -632,15 +649,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(16);
+var _path2 = __webpack_require__(15);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(17);
+var _importCss2 = __webpack_require__(16);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(18);
+var _universalImport2 = __webpack_require__(17);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -654,7 +671,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(3);
 
-var _reactUniversalComponent = __webpack_require__(19);
+var _reactUniversalComponent = __webpack_require__(18);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -708,7 +725,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/404',
   file: '/home/gytdau/projects/directory/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 8)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -718,7 +735,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(9);
+    return /*require.resolve*/(8);
   },
   chunkName: function chunkName() {
     return 'src/containers/404';
@@ -728,7 +745,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/Note',
   file: '/home/gytdau/projects/directory/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/containers/Note', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/Note', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -738,7 +755,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Note');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(10);
+    return /*require.resolve*/(9);
   },
   chunkName: function chunkName() {
     return 'src/containers/Note';
@@ -825,25 +842,25 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -858,7 +875,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(20);
+var _requireUniversalModule = __webpack_require__(19);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -873,7 +890,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(21);
+var _reportChunks = __webpack_require__(20);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -890,7 +907,7 @@ var _propTypes = __webpack_require__(5);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(22);
+var _hoistNonReactStatics = __webpack_require__(21);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1190,7 +1207,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1372,7 +1389,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1435,13 +1452,13 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1491,6 +1508,12 @@ exports.default = function (props) {
 };
 
 /***/ }),
+/* 23 */
+/***/ (function(module, exports) {
+
+module.exports = require("html-entities");
+
+/***/ }),
 /* 24 */
 /***/ (function(module, exports) {
 
@@ -1498,28 +1521,22 @@ module.exports = require("tipograph");
 
 /***/ }),
 /* 25 */
-/***/ (function(module, exports) {
-
-module.exports = require("html-entities");
-
-/***/ }),
-/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)(false);
+exports = module.exports = __webpack_require__(26)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);", ""]);
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);", ""]);
 exports.push([module.i, "@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);", ""]);
 
 // module
-exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"Archivo\"; }\n\nh2, h3, h4 {\n  font-weight: bold; }\n\nh2 {\n  font-size: 1.8rem; }\n\nh3 {\n  color: #646871;\n  font-size: 1.4rem; }\n\nh2, h3 {\n  margin: 4rem 0 1rem; }\n\nblockquote {\n  border-left: 0;\n  font-size: 0.9em;\n  color: #646871; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header--secondary--essay {\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    display: flex; }\n    .header--secondary--essay .container {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      flex-direction: column; }\n\n.container {\n  padding-top: 3em;\n  padding-bottom: 3em; }\n\n.text {\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.2em;\n  line-height: 1.7;\n  padding-bottom: 20vh; }\n\np {\n  margin-bottom: 2em; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\n.size-indicator {\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right; }\n\n.tag {\n  display: inline-block;\n  border-radius: 100px;\n  background-color: #0074D9;\n  color: white;\n  text-transform: capitalize;\n  padding: 0.1em 0.7em 0.2em 0.7em;\n  margin-right: 0.5em; }\n\n.back-button {\n  font-weight: normal; }\n  .back-button a:hover {\n    text-decoration: none; }\n\n.back-icon:before {\n  transform: rotate(-90deg) translateX(-4px);\n  display: inline-block; }\n", ""]);
+exports.push([module.i, "blockquote {\n  font-style: italic;\n  border-left: 5px solid;\n  margin-left: 2em;\n  padding-left: 1em; }\n\nul,\nol {\n  margin: 0 0 1.5em 1.5em; }\n\ntable {\n  margin-bottom: 1.5em;\n  font-size: 1em; }\n\nthead th,\ntfoot th {\n  padding: .25em .25em .25em .4em;\n  text-transform: uppercase; }\n\nth {\n  text-align: left; }\n\ntd {\n  vertical-align: top;\n  padding: .25em .25em .25em .4em; }\n\ncode {\n  background-color: #dadada;\n  padding-left: 1ch;\n  padding-right: 1ch; }\n\npre,\ncode,\ntt {\n  font-size: .875em;\n  line-height: 1.7; }\n\nh1 {\n  line-height: 1.3em;\n  font-weight: normal;\n  margin-bottom: 0.5em; }\n\npre {\n  background-color: #dadada;\n  padding: 1ch; }\n\n* {\n  font-family: \"Archivo\"; }\n\nh1, h2, h3, h4 {\n  font-weight: bold; }\n\nh2 {\n  font-size: 1.8rem; }\n\nh3 {\n  color: #646871;\n  font-size: 1.4rem; }\n\nh2, h3 {\n  margin: 4rem 0 1rem; }\n\nblockquote {\n  border-left: 0;\n  font-size: 0.9em;\n  color: #646871; }\n\n.header {\n  height: 50vh;\n  display: flex;\n  align-items: center;\n  background-color: #111111;\n  color: white; }\n  .header--secondary--essay {\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    display: flex; }\n    .header--secondary--essay .container {\n      justify-content: center;\n      align-items: center;\n      display: flex;\n      flex-direction: column; }\n\n.container-padded {\n  padding-top: 6em;\n  padding-bottom: 6em; }\n\n.text {\n  min-height: 100vh;\n  padding-top: 3em;\n  font-size: 1.2em;\n  line-height: 1.7;\n  padding-bottom: 20vh; }\n\np {\n  margin-bottom: 2em; }\n\n.card {\n  margin-bottom: 1em; }\n\n.card-body {\n  color: #111111;\n  height: 0;\n  padding-bottom: 7em; }\n\n.card-container:hover {\n  text-decoration: none !important; }\n\nimg {\n  width: 100%; }\n\n.size-indicator {\n  font-size: 0.8em;\n  margin: 0.3em;\n  float: right; }\n\n.tag {\n  display: inline-block;\n  border-radius: 100px;\n  background-color: #0074D9;\n  color: white;\n  text-transform: capitalize;\n  padding: 0.1em 0.7em 0.2em 0.7em;\n  margin-right: 0.5em; }\n\n.back-button {\n  font-weight: normal; }\n  .back-button a:hover {\n    text-decoration: none; }\n\n.back-icon:before {\n  transform: rotate(-90deg) translateX(-4px);\n  display: inline-block; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports) {
 
 /*
@@ -1603,4 +1620,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.05a7e332.js.map
+//# sourceMappingURL=static.49f251c5.js.map
