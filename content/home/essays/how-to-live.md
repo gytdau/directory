@@ -1,8 +1,4 @@
----
-type: essay
-subtitle: The first principles of a life well lived.
 
----
 
 When you look hard enough at the actions you take, and start questioning everything, things can start to break down. What are we working towards? What kind of a future do we want? How can we make ourselves happier? There are a lot of questions, and practical wisdom doesn't answer our questions well.
 

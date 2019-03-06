@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "957cf5c4f5534e304e1a",
-  "time": 8246,
+  "hash": "7e74d215c4bcee6e11d3",
+  "time": 9602,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Note": [
@@ -19,10 +19,10 @@
       "templates/src/containers/404.c5310654.js.map"
     ],
     "main": [
-      "main.19a49af9.js",
-      "styles.957cf5c4.css",
-      "main.19a49af9.js.map",
-      "styles.957cf5c4.css.map"
+      "main.f8551df1.js",
+      "styles.7e74d215.css",
+      "main.f8551df1.js.map",
+      "styles.7e74d215.css.map"
     ],
     "bootstrap": [
       "bootstrap.3fc757c8.js",
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "main.19a49af9.js",
-      "size": 273286,
+      "name": "main.f8551df1.js",
+      "size": 273455,
       "chunks": [
         3
       ],
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.957cf5c4.css",
+      "name": "styles.7e74d215.css",
       "size": 1972,
       "chunks": [
         3
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.19a49af9.js.map",
-      "size": 1490845,
+      "name": "main.f8551df1.js.map",
+      "size": 1491432,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.957cf5c4.css.map",
+      "name": "styles.7e74d215.css.map",
       "size": 96,
       "chunks": [
         3
@@ -174,10 +174,10 @@
       "assets": [
         "bootstrap.3fc757c8.js",
         "bootstrap.3fc757c8.js.map",
-        "main.19a49af9.js",
-        "styles.957cf5c4.css",
-        "main.19a49af9.js.map",
-        "styles.957cf5c4.css.map"
+        "main.f8551df1.js",
+        "styles.7e74d215.css",
+        "main.f8551df1.js.map",
+        "styles.7e74d215.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -653,9 +653,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
-          "issuerId": 50,
-          "issuerName": "./src/containers/Home.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
+          "issuerId": 52,
+          "issuerName": "./src/containers/Note.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2131,9 +2131,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
-          "issuerId": 50,
-          "issuerName": "./src/containers/Home.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
+          "issuerId": 52,
+          "issuerName": "./src/containers/Note.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2302,17 +2302,17 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 519454,
+      "size": 519752,
       "names": [
         "main"
       ],
       "files": [
-        "main.19a49af9.js",
-        "styles.957cf5c4.css",
-        "main.19a49af9.js.map",
-        "styles.957cf5c4.css.map"
+        "main.f8551df1.js",
+        "styles.7e74d215.css",
+        "main.f8551df1.js.map",
+        "styles.7e74d215.css.map"
       ],
-      "hash": "19a49af9e79054bdbf5d",
+      "hash": "f8551df14fbf2e16290f",
       "parents": [
         4
       ],
@@ -3213,9 +3213,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 62,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 68,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3518,9 +3518,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 92,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/dist/react-static-routes.js",
+          "issuerId": 128,
+          "issuerName": "./dist/react-static-routes.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3881,9 +3881,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 62,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/Link.js",
+          "issuerId": 30,
+          "issuerName": "./node_modules/react-router-dom/es/Link.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5364,9 +5364,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/matchPath.js",
-          "issuerId": 21,
-          "issuerName": "./node_modules/react-router/es/matchPath.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/generatePath.js",
+          "issuerId": 34,
+          "issuerName": "./node_modules/react-router/es/generatePath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6378,7 +6378,7 @@
           "name": "./src/App.js",
           "index": 9,
           "index2": 171,
-          "size": 907,
+          "size": 1205,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6408,7 +6408,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'content' },\n        _react2.default.createElement(_reactStaticRoutes2.default, null)\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement(\n          'title',\n          null,\n          'Directory'\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', href: '/favicon.png' })\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'content' },\n        _react2.default.createElement(_reactStaticRoutes2.default, null)\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
         },
         {
           "id": 60,
@@ -10275,9 +10275,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 62,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 68,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10580,9 +10580,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 92,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/dist/react-static-routes.js",
+      "issuerId": 128,
+      "issuerName": "./dist/react-static-routes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10943,9 +10943,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 62,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-router-dom/es/Link.js",
+      "issuerId": 30,
+      "issuerName": "./node_modules/react-router-dom/es/Link.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12426,9 +12426,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/matchPath.js",
-      "issuerId": 21,
-      "issuerName": "./node_modules/react-router/es/matchPath.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/generatePath.js",
+      "issuerId": 34,
+      "issuerName": "./node_modules/react-router/es/generatePath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13581,7 +13581,7 @@
       "name": "./src/App.js",
       "index": 9,
       "index2": 171,
-      "size": 907,
+      "size": 1205,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13611,7 +13611,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'content' },\n        _react2.default.createElement(_reactStaticRoutes2.default, null)\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement(\n          'title',\n          null,\n          'Directory'\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', href: '/favicon.png' })\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'content' },\n        _react2.default.createElement(_reactStaticRoutes2.default, null)\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
     },
     {
       "id": 60,
@@ -16950,9 +16950,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
-      "issuerId": 50,
-      "issuerName": "./src/containers/Home.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Note.js",
+      "issuerId": 52,
+      "issuerName": "./src/containers/Note.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,

@@ -1,14 +1,4 @@
-I suspect most people have no idea what to do with money.
+I suspect most people have no idea what to do with money. I'm not sure what to do with it, either, except spend it the best way you know how: through large, future-oriented investments.
 
-We are, at heart, optimizing for emotional happiness. This can come in many ways, like fulfillment, meaning, and pride. Purchases like TVs or bigger homes are just a really inefficient way to try to reach those goals.
-
-We are persuaded into these kinds of purchases by advertising, our social structure, and our government. Consumerism is great for economies, but not so much for people.
-
-Some difficult problems can be solved through money, but everything else is  an entirely different type of engineering challenge. 
-
-## Reading material
-
-Clickbaity, but filled with very good ideas: [How to Save $100,000 by Age 25](https://thedeepdish.org/save-100000-age-25/)
-
-More good ideas by the same author: [The Beginner’s Guide to Becoming a Badass Investor](https://thedeepdish.org/beginners-guide-becoming-badass-investor/)
+I imagine you don't need a lot of money to be happy, but depending on the type of environment you're in, you could need a lot of money to shape it into something that's a pleasure to live in. This could mean removing stressors, relocating, eating well, and having spare time.
 
