@@ -12,11 +12,11 @@ function toTitleCase(str) {
 export default withRouteData(({ children_notes, note }) => {
   let typeset = tipograph()
   const entities = new htmlentities.AllHtmlEntities();
-  let contents = typeset(entities.decode(note.contents))
+  let contents = entities.decode(note.contents)
   let parent_path = "/" + note.parent
   let parent = parent_path.split("/").pop()
   parent = toTitleCase(parent)
-  if(parent_path == "/home") {
+  if (parent_path == "/home") {
     parent_path = "/"
   }
   console.log(note)
@@ -41,7 +41,7 @@ export default withRouteData(({ children_notes, note }) => {
     <div>
       <div className="header--secondary">
         <div className="container">
-          <h2 className="back-button"><Link to={parent_path}>{parent} <i className="mdi mdi-subdirectory-arrow-left back-icon"/></Link></h2>
+          <h2 className="back-button"><Link to={parent_path}>{parent} <i className="mdi mdi-subdirectory-arrow-left back-icon" /></Link></h2>
           <h1>{note.name}</h1>
         </div>
       </div>
