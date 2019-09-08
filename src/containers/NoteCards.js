@@ -1,8 +1,10 @@
-import React from 'react';
-import NoteCard from './NoteCard';
+import React from "react"
+import NoteCard from "./NoteCard"
 
-export default (props) => (
+export default props => (
   <div class="row">
-    {props.notes.map(note => <NoteCard note={note} />)}
+    {props.notes.map(note => (
+      <NoteCard note={note} series={props.series} />
+    ))}
   </div>
 )

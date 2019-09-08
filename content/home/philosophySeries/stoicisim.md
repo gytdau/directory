@@ -1,3 +1,7 @@
+---
+background: ".jpg"
+---
+
 Stoicisim is described as a life philosophy. In my mind, it amounts to a collection of time-tested values, methods, and advice that usually makes your life better.
 
 Like anything of non-negligible value, these techniques often take a few months to a few years to develop.
@@ -21,5 +25,3 @@ Being fatalistic about your present, as we now know, is misguided.
 ## Self-denial
 
 Ocasionally deny yourself pleasures like good food or a comfortable existence so that you immunize yourself against a future where you could loose them for real. This reduces anxiety about any loss you could incur (since you could deal with it easier) and helps you combat the hedonic treadmill.
-
- 

@@ -4,11 +4,11 @@ import {
   getContent,
   getHome,
 } from "./src/process_content"
+import { reloadRoutes } from "react-static/node"
 import chokidar from "chokidar"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
 
-
-
+chokidar.watch("content").on("all", () => reloadRoutes())
 export default {
   getSiteData: () => ({
     title: "React Static",

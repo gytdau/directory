@@ -1,3 +1,7 @@
+---
+background: ".jpg"
+---
+
 ## Cultural sentiment
 
 Due to the structure of our social networks, mistakes have a more negative sentiment than was previously possible. This is for two reasons.
@@ -12,6 +16,6 @@ It's cliche to say that a mistake was a learning experience. But like all cliche
 
 Consider this statement from a different perspective.
 
-Imagine a simple number game where you have to guess numbers within some bounds that you don't know. If your objective was to discover these bounds, it's a very bad sign indeed if you keep hitting a number within the bounds. And indeed, one wrong guess could tell you far more than ten right guesses.  
+Imagine a simple number game where you have to guess numbers within some bounds that you don't know. If your objective was to discover these bounds, it's a very bad sign indeed if you keep hitting a number within the bounds. And indeed, one wrong guess could tell you far more than ten right guesses.
 
 A mistake is just an event that we realize we could've handled better. The realisation part is the win. If someone isn't self-reflective, they'd have made no mistakes while clearly being worse off than someone who did record their events as mistakes.

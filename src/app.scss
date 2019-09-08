@@ -69,6 +69,16 @@ p {
 .card-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 1.5em;
+  }
+}
+.btn-light {
+  font-size: 0.5em;
 }
 .card {
   margin: 1em;
@@ -76,6 +86,9 @@ p {
   max-width: 12.75em;
   min-width: 12.75em;
   height: 16.5em;
+  border: 0;
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.041), 0 6px 6px rgba(0, 0, 0, 0.041);
 }
 .card-body {
   color: $dark;
