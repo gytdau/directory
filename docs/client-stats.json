@@ -2,17 +2,17 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "c4c76f336ea56b394e58",
-  "time": 8282,
+  "hash": "1cfb48ffc60784df6b09",
+  "time": 9074,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Note": [
-      "templates/src/containers/Note.4d41f4ed.js",
-      "templates/src/containers/Note.4d41f4ed.js.map"
+      "templates/src/containers/Note.e309c6ec.js",
+      "templates/src/containers/Note.e309c6ec.js.map"
     ],
     "src/containers/Home": [
-      "templates/src/containers/Home.b69f21e6.js",
-      "templates/src/containers/Home.b69f21e6.js.map"
+      "templates/src/containers/Home.bbe08393.js",
+      "templates/src/containers/Home.bbe08393.js.map"
     ],
     "src/containers/404": [
       "templates/src/containers/404.c5310654.js",
@@ -20,19 +20,19 @@
     ],
     "main": [
       "main.f8551df1.js",
-      "styles.c4c76f33.css",
+      "styles.1cfb48ff.css",
       "main.f8551df1.js.map",
-      "styles.c4c76f33.css.map"
+      "styles.1cfb48ff.css.map"
     ],
     "bootstrap": [
-      "bootstrap.0ad3ab95.js",
-      "bootstrap.0ad3ab95.js.map"
+      "bootstrap.6cdc3916.js",
+      "bootstrap.6cdc3916.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Note.4d41f4ed.js.map",
-      "size": 659544,
+      "name": "templates/src/containers/Note.e309c6ec.js.map",
+      "size": 659687,
       "chunks": [
         0
       ],
@@ -42,8 +42,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Note.4d41f4ed.js",
-      "size": 123420,
+      "name": "templates/src/containers/Note.e309c6ec.js",
+      "size": 123260,
       "chunks": [
         0
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.0ad3ab95.js",
+      "name": "bootstrap.6cdc3916.js",
       "size": 1542,
       "chunks": [
         4
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.c4c76f33.css",
-      "size": 1972,
+      "name": "styles.1cfb48ff.css",
+      "size": 2413,
       "chunks": [
         3
       ],
@@ -98,8 +98,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.b69f21e6.js",
-      "size": 2596,
+      "name": "templates/src/containers/Home.bbe08393.js",
+      "size": 1797,
       "chunks": [
         1
       ],
@@ -109,8 +109,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.b69f21e6.js.map",
-      "size": 10129,
+      "name": "templates/src/containers/Home.bbe08393.js.map",
+      "size": 8808,
       "chunks": [
         1
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.c4c76f33.css.map",
+      "name": "styles.1cfb48ff.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.0ad3ab95.js.map",
+      "name": "bootstrap.6cdc3916.js.map",
       "size": 14433,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.0ad3ab95.js",
-        "bootstrap.0ad3ab95.js.map",
+        "bootstrap.6cdc3916.js",
+        "bootstrap.6cdc3916.js.map",
         "main.f8551df1.js",
-        "styles.c4c76f33.css",
+        "styles.1cfb48ff.css",
         "main.f8551df1.js.map",
-        "styles.c4c76f33.css.map"
+        "styles.1cfb48ff.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 262810,
+      "size": 262647,
       "names": [
         "src/containers/Note"
       ],
       "files": [
-        "templates/src/containers/Note.4d41f4ed.js",
-        "templates/src/containers/Note.4d41f4ed.js.map"
+        "templates/src/containers/Note.e309c6ec.js",
+        "templates/src/containers/Note.e309c6ec.js.map"
       ],
-      "hash": "4d41f4ed003ee0be8390",
+      "hash": "e309c6ec5a78049d64c1",
       "parents": [
         3
       ],
@@ -208,7 +208,7 @@
           "name": "./src/containers/Note.js",
           "index": 135,
           "index2": 168,
-          "size": 3553,
+          "size": 3646,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -247,7 +247,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _htmlEntities = require('html-entities');\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _tipograph = require('tipograph');\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction toTitleCase(str) {\n  var result = str.replace(/([A-Z])/g, \" $1\");\n  return result.charAt(0).toUpperCase() + result.slice(1);\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = entities.decode(note.contents);\n  var parent_path = \"/\" + note.parent;\n  var parent = parent_path.split(\"/\").pop();\n  parent = toTitleCase(parent);\n  if (parent_path == \"/home\") {\n    parent_path = \"/\";\n  }\n  console.log(note);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'header--secondary header--secondary--essay' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            'h2',\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'text' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'row' },\n            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header--secondary' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h2',\n          { className: 'back-button' },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: parent_path },\n            parent,\n            ' ',\n            _react2.default.createElement('i', { className: 'mdi mdi-subdirectory-arrow-left back-icon' })\n          )\n        ),\n        _react2.default.createElement(\n          'h1',\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })\n        )\n      )\n    )\n  );\n});"
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _htmlEntities = require(\"html-entities\");\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require(\"react-static\");\n\nvar _tipograph = require(\"tipograph\");\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _NoteCards = require(\"./NoteCards\");\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction toTitleCase(str) {\n  var result = str.replace(/([A-Z])/g, \" $1\");\n  return result.charAt(0).toUpperCase() + result.slice(1);\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = entities.decode(note.contents);\n  var parent_path = \"/\" + note.parent;\n  var parent = parent_path.split(\"/\").pop();\n  parent = toTitleCase(parent);\n  if (parent_path == \"/home\") {\n    parent_path = \"/\";\n  }\n  console.log(note);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      \"div\",\n      null,\n      _react2.default.createElement(\n        \"div\",\n        { className: \"header--secondary header--secondary--essay\" },\n        _react2.default.createElement(\n          \"div\",\n          { className: \"container\" },\n          _react2.default.createElement(\n            \"h1\",\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            \"h2\",\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        \"div\",\n        { className: \"text\" },\n        _react2.default.createElement(\n          \"div\",\n          { className: \"container\" },\n          _react2.default.createElement(\n            \"div\",\n            { \"class\": \"row\" },\n            _react2.default.createElement(\"div\", {\n              \"class\": \"col-md-8 offset-md-2 essay-titlecap\",\n              dangerouslySetInnerHTML: { __html: contents }\n            })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    _react2.default.createElement(\n      \"div\",\n      { className: \"header--secondary\" },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"container\" },\n        _react2.default.createElement(\n          \"h2\",\n          { className: \"back-button\" },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: parent_path },\n            parent,\n            \" \",\n            _react2.default.createElement(\"i\", { className: \"mdi mdi-subdirectory-arrow-left back-icon\" })\n          )\n        ),\n        _react2.default.createElement(\n          \"h1\",\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: \"container\" },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes, series: note.name })\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: \"text\" },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"container\" },\n        _react2.default.createElement(\n          \"div\",\n          { \"class\": \"row\" },\n          _react2.default.createElement(\"div\", {\n            \"class\": \"col-md-8 offset-md-2\",\n            dangerouslySetInnerHTML: { __html: contents }\n          })\n        )\n      )\n    )\n  );\n});"
         },
         {
           "id": 135,
@@ -448,9 +448,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_duplex.js",
-          "issuerId": 136,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+          "issuerId": 148,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -509,6 +509,54 @@
         },
         {
           "id": 138,
+          "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
+          "name": "./src/containers/NoteCard.js",
+          "index": 133,
+          "index2": 128,
+          "size": 1110,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "issuerId": 50,
+          "issuerName": "./src/containers/Home.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 50,
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+              "module": "./src/containers/Home.js",
+              "moduleName": "./src/containers/Home.js",
+              "type": "cjs require",
+              "userRequest": "./NoteCard",
+              "loc": "17:16-37"
+            },
+            {
+              "moduleId": 141,
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
+              "module": "./src/containers/NoteCards.js",
+              "moduleName": "./src/containers/NoteCards.js",
+              "type": "cjs require",
+              "userRequest": "./NoteCard",
+              "loc": "11:16-37"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 4,
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar image = function image(note) {\n  if (note.gradient) {\n    return {\n      background: \"\" + note.gradient\n    };\n  }\n  if (note.background) {\n    return {\n      background: \"url(/\" + note.path + note.background + \")\"\n    };\n  }\n  return {};\n};\n\nexports.default = function (props) {\n  return props.note.published != false ? _react2.default.createElement(\n    _reactRouterDom.Link,\n    { to: \"/\" + props.note.path },\n    _react2.default.createElement(\n      \"div\",\n      { className: \"card series-\" + props.series, style: image(props.note) },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"card-body\" },\n        _react2.default.createElement(\"h5\", {\n          dangerouslySetInnerHTML: {\n            __html: props.note.name\n          }\n        })\n      )\n    )\n  ) : null;\n};"
+        },
+        {
+          "id": 139,
           "identifier": "/home/gytdau/projects/directory/node_modules/process-nextick-args/index.js",
           "name": "./node_modules/process-nextick-args/index.js",
           "index": 150,
@@ -522,9 +570,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_duplex.js",
-          "issuerId": 136,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+          "issuerId": 148,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -573,7 +621,7 @@
           "source": "'use strict';\n\nif (!process.version ||\n    process.version.indexOf('v0.') === 0 ||\n    process.version.indexOf('v1.') === 0 && process.version.indexOf('v1.8.') !== 0) {\n  module.exports = { nextTick: nextTick };\n} else {\n  module.exports = process\n}\n\nfunction nextTick(fn, arg1, arg2, arg3) {\n  if (typeof fn !== 'function') {\n    throw new TypeError('\"callback\" argument must be a function');\n  }\n  var len = arguments.length;\n  var args, i;\n  switch (len) {\n  case 0:\n  case 1:\n    return process.nextTick(fn);\n  case 2:\n    return process.nextTick(function afterTickOne() {\n      fn.call(null, arg1);\n    });\n  case 3:\n    return process.nextTick(function afterTickTwo() {\n      fn.call(null, arg1, arg2);\n    });\n  case 4:\n    return process.nextTick(function afterTickThree() {\n      fn.call(null, arg1, arg2, arg3);\n    });\n  default:\n    args = new Array(len - 1);\n    i = 0;\n    while (i < args.length) {\n      args[i++] = arguments[i];\n    }\n    return process.nextTick(function afterTick() {\n      fn.apply(null, args);\n    });\n  }\n}\n\n"
         },
         {
-          "id": 139,
+          "id": 140,
           "identifier": "/home/gytdau/projects/directory/node_modules/safe-buffer/index.js",
           "name": "./node_modules/safe-buffer/index.js",
           "index": 152,
@@ -587,9 +635,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_writable.js",
-          "issuerId": 145,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_writable.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+          "issuerId": 148,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -638,12 +686,12 @@
           "source": "/* eslint-disable node/no-deprecated-api */\nvar buffer = require('buffer')\nvar Buffer = buffer.Buffer\n\n// alternative to using Object.keys for old browsers\nfunction copyProps (src, dst) {\n  for (var key in src) {\n    dst[key] = src[key]\n  }\n}\nif (Buffer.from && Buffer.alloc && Buffer.allocUnsafe && Buffer.allocUnsafeSlow) {\n  module.exports = buffer\n} else {\n  // Copy properties from require('buffer')\n  copyProps(buffer, exports)\n  exports.Buffer = SafeBuffer\n}\n\nfunction SafeBuffer (arg, encodingOrOffset, length) {\n  return Buffer(arg, encodingOrOffset, length)\n}\n\n// Copy static methods from Buffer\ncopyProps(Buffer, SafeBuffer)\n\nSafeBuffer.from = function (arg, encodingOrOffset, length) {\n  if (typeof arg === 'number') {\n    throw new TypeError('Argument must not be a number')\n  }\n  return Buffer(arg, encodingOrOffset, length)\n}\n\nSafeBuffer.alloc = function (size, fill, encoding) {\n  if (typeof size !== 'number') {\n    throw new TypeError('Argument must be a number')\n  }\n  var buf = Buffer(size)\n  if (fill !== undefined) {\n    if (typeof encoding === 'string') {\n      buf.fill(fill, encoding)\n    } else {\n      buf.fill(fill)\n    }\n  } else {\n    buf.fill(0)\n  }\n  return buf\n}\n\nSafeBuffer.allocUnsafe = function (size) {\n  if (typeof size !== 'number') {\n    throw new TypeError('Argument must be a number')\n  }\n  return Buffer(size)\n}\n\nSafeBuffer.allocUnsafeSlow = function (size) {\n  if (typeof size !== 'number') {\n    throw new TypeError('Argument must be a number')\n  }\n  return buffer.SlowBuffer(size)\n}\n"
         },
         {
-          "id": 140,
+          "id": 141,
           "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
           "name": "./src/containers/NoteCards.js",
           "index": 132,
           "index2": 129,
-          "size": 594,
+          "size": 616,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -683,46 +731,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _NoteCard = require('./NoteCard');\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return _react2.default.createElement(\n    'div',\n    { 'class': 'row' },\n    props.notes.map(function (note) {\n      return _react2.default.createElement(_NoteCard2.default, { note: note });\n    })\n  );\n};"
-        },
-        {
-          "id": 141,
-          "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
-          "name": "./src/containers/NoteCard.js",
-          "index": 133,
-          "index2": 128,
-          "size": 1388,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0,
-            1
-          ],
-          "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-          "issuerId": 140,
-          "issuerName": "./src/containers/NoteCards.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 140,
-              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-              "module": "./src/containers/NoteCards.js",
-              "moduleName": "./src/containers/NoteCards.js",
-              "type": "cjs require",
-              "userRequest": "./NoteCard",
-              "loc": "11:16-37"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 5,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return props.note.published != false ? _react2.default.createElement(\n    'div',\n    { className: 'col-md-4' },\n    _react2.default.createElement(\n      _reactRouterDom.Link,\n      { className: 'card-container', to: \"/\" + props.note.path },\n      _react2.default.createElement(\n        'div',\n        { className: 'card' },\n        _react2.default.createElement(\n          'div',\n          { className: 'card-body' },\n          _react2.default.createElement('h5', { className: 'card-title', dangerouslySetInnerHTML: { __html: props.note.name + (props.note.folder > 0 ? \" <div class='size-indicator text-muted'>\" + props.note.folder + \"</div>\" : \"\") } }),\n          props.note.tags ? _react2.default.createElement(\n            'div',\n            null,\n            props.note.tags.map(function (tag) {\n              return _react2.default.createElement(\n                'div',\n                { className: 'tag', id: \"tag-\" + tag },\n                tag\n              );\n            })\n          ) : null\n        )\n      )\n    )\n  ) : null;\n};"
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _NoteCard = require(\"./NoteCard\");\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return _react2.default.createElement(\n    \"div\",\n    { \"class\": \"row\" },\n    props.notes.map(function (note) {\n      return _react2.default.createElement(_NoteCard2.default, { note: note, series: props.series });\n    })\n  );\n};"
         },
         {
           "id": 142,
@@ -756,7 +765,7 @@
               "loc": "1:0-34"
             },
             {
-              "moduleId": 139,
+              "moduleId": 140,
               "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/safe-buffer/index.js",
               "module": "./node_modules/safe-buffer/index.js",
               "moduleName": "./node_modules/safe-buffer/index.js",
@@ -1104,9 +1113,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_writable.js",
-          "issuerId": 145,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_writable.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+          "issuerId": 148,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1151,9 +1160,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_writable.js",
-          "issuerId": 145,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_writable.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+          "issuerId": 148,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2055,15 +2064,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 4427,
+      "size": 3448,
       "names": [
         "src/containers/Home"
       ],
       "files": [
-        "templates/src/containers/Home.b69f21e6.js",
-        "templates/src/containers/Home.b69f21e6.js.map"
+        "templates/src/containers/Home.bbe08393.js",
+        "templates/src/containers/Home.bbe08393.js.map"
       ],
-      "hash": "b69f21e6f16fdecbb7d0",
+      "hash": "bbe083934a547c298e6e",
       "parents": [
         3
       ],
@@ -2074,7 +2083,7 @@
           "name": "./src/containers/Home.js",
           "index": 131,
           "index2": 130,
-          "size": 2445,
+          "size": 1722,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2113,15 +2122,63 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes;\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h1',\n          null,\n          'Directory'\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container container-padded' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'col-md-8 offset-md-2' },\n            _react2.default.createElement(\n              'p',\n              null,\n              'Information wants to be free, and thoughts deserve to be open.'\n            ),\n            _react2.default.createElement(\n              'p',\n              null,\n              'Directory is a project to open-source my thoughts and build my life with transparency. We\\'re not good at thinking, but consistent writing and reflection can hammer our thoughts into obeying rationality and logic. I\\'m updating Directory constantly, and you can read everything as I go.'\n            ),\n            _react2.default.createElement(\n              'p',\n              null,\n              'Comment on my thoughts by ',\n              _react2.default.createElement(\n                'a',\n                { href: 'https://github.com/gytdau/directory/issues/new' },\n                'creating an issue'\n              ),\n              '. Steal whatever you like, no permission or attribution required.'\n            )\n          )\n        )\n      )\n    )\n  );\n});"
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require(\"react-static\");\n\nvar _NoteCards = require(\"./NoteCards\");\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nvar _NoteCard = require(\"./NoteCard\");\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes;\n\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    _react2.default.createElement(\n      \"div\",\n      { className: \"container container-padded\" },\n      children_notes.map(function (note) {\n        return _react2.default.createElement(\n          \"div\",\n          null,\n          _react2.default.createElement(\n            \"h1\",\n            { className: \"card-list-title\" },\n            note.name,\n            \" \",\n            _react2.default.createElement(\n              \"div\",\n              null,\n              _react2.default.createElement(\n                _reactRouterDom.Link,\n                { to: note.path, className: \"btn btn-light float-right\" },\n                \"OPEN\"\n              )\n            )\n          ),\n          _react2.default.createElement(\n            \"div\",\n            { className: \"card-list\" },\n            note.children.slice(0, 4).map(function (child) {\n              return _react2.default.createElement(_NoteCard2.default, { note: child, series: note.name });\n            })\n          )\n        );\n      })\n    )\n  );\n});"
         },
         {
-          "id": 140,
+          "id": 138,
+          "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
+          "name": "./src/containers/NoteCard.js",
+          "index": 133,
+          "index2": 128,
+          "size": 1110,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "issuerId": 50,
+          "issuerName": "./src/containers/Home.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 50,
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+              "module": "./src/containers/Home.js",
+              "moduleName": "./src/containers/Home.js",
+              "type": "cjs require",
+              "userRequest": "./NoteCard",
+              "loc": "17:16-37"
+            },
+            {
+              "moduleId": 141,
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
+              "module": "./src/containers/NoteCards.js",
+              "moduleName": "./src/containers/NoteCards.js",
+              "type": "cjs require",
+              "userRequest": "./NoteCard",
+              "loc": "11:16-37"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 4,
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar image = function image(note) {\n  if (note.gradient) {\n    return {\n      background: \"\" + note.gradient\n    };\n  }\n  if (note.background) {\n    return {\n      background: \"url(/\" + note.path + note.background + \")\"\n    };\n  }\n  return {};\n};\n\nexports.default = function (props) {\n  return props.note.published != false ? _react2.default.createElement(\n    _reactRouterDom.Link,\n    { to: \"/\" + props.note.path },\n    _react2.default.createElement(\n      \"div\",\n      { className: \"card series-\" + props.series, style: image(props.note) },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"card-body\" },\n        _react2.default.createElement(\"h5\", {\n          dangerouslySetInnerHTML: {\n            __html: props.note.name\n          }\n        })\n      )\n    )\n  ) : null;\n};"
+        },
+        {
+          "id": 141,
           "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
           "name": "./src/containers/NoteCards.js",
           "index": 132,
           "index2": 129,
-          "size": 594,
+          "size": 616,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2161,46 +2218,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _NoteCard = require('./NoteCard');\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return _react2.default.createElement(\n    'div',\n    { 'class': 'row' },\n    props.notes.map(function (note) {\n      return _react2.default.createElement(_NoteCard2.default, { note: note });\n    })\n  );\n};"
-        },
-        {
-          "id": 141,
-          "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
-          "name": "./src/containers/NoteCard.js",
-          "index": 133,
-          "index2": 128,
-          "size": 1388,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0,
-            1
-          ],
-          "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-          "issuerId": 140,
-          "issuerName": "./src/containers/NoteCards.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 140,
-              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-              "module": "./src/containers/NoteCards.js",
-              "moduleName": "./src/containers/NoteCards.js",
-              "type": "cjs require",
-              "userRequest": "./NoteCard",
-              "loc": "11:16-37"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 5,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return props.note.published != false ? _react2.default.createElement(\n    'div',\n    { className: 'col-md-4' },\n    _react2.default.createElement(\n      _reactRouterDom.Link,\n      { className: 'card-container', to: \"/\" + props.note.path },\n      _react2.default.createElement(\n        'div',\n        { className: 'card' },\n        _react2.default.createElement(\n          'div',\n          { className: 'card-body' },\n          _react2.default.createElement('h5', { className: 'card-title', dangerouslySetInnerHTML: { __html: props.note.name + (props.note.folder > 0 ? \" <div class='size-indicator text-muted'>\" + props.note.folder + \"</div>\" : \"\") } }),\n          props.note.tags ? _react2.default.createElement(\n            'div',\n            null,\n            props.note.tags.map(function (tag) {\n              return _react2.default.createElement(\n                'div',\n                { className: 'tag', id: \"tag-\" + tag },\n                tag\n              );\n            })\n          ) : null\n        )\n      )\n    )\n  ) : null;\n};"
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _NoteCard = require(\"./NoteCard\");\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return _react2.default.createElement(\n    \"div\",\n    { \"class\": \"row\" },\n    props.notes.map(function (note) {\n      return _react2.default.createElement(_NoteCard2.default, { note: note, series: props.series });\n    })\n  );\n};"
         }
       ],
       "filteredModules": 0,
@@ -2308,9 +2326,9 @@
       ],
       "files": [
         "main.f8551df1.js",
-        "styles.c4c76f33.css",
+        "styles.1cfb48ff.css",
         "main.f8551df1.js.map",
-        "styles.c4c76f33.css.map"
+        "styles.1cfb48ff.css.map"
       ],
       "hash": "f8551df14fbf2e16290f",
       "parents": [
@@ -2691,19 +2709,19 @@
               "loc": "9:13-29"
             },
             {
-              "moduleId": 140,
-              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-              "module": "./src/containers/NoteCards.js",
-              "moduleName": "./src/containers/NoteCards.js",
+              "moduleId": 138,
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
+              "module": "./src/containers/NoteCard.js",
+              "moduleName": "./src/containers/NoteCard.js",
               "type": "cjs require",
               "userRequest": "react",
               "loc": "7:13-29"
             },
             {
               "moduleId": 141,
-              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
-              "module": "./src/containers/NoteCard.js",
-              "moduleName": "./src/containers/NoteCard.js",
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
+              "module": "./src/containers/NoteCards.js",
+              "moduleName": "./src/containers/NoteCards.js",
               "type": "cjs require",
               "userRequest": "react",
               "loc": "7:13-29"
@@ -2730,9 +2748,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
-          "issuerId": 114,
-          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 92,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3690,6 +3708,15 @@
               "loc": "8:22-49"
             },
             {
+              "moduleId": 50,
+              "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+              "module": "./src/containers/Home.js",
+              "moduleName": "./src/containers/Home.js",
+              "type": "cjs require",
+              "userRequest": "react-router-dom",
+              "loc": "21:22-49"
+            },
+            {
               "moduleId": 92,
               "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
               "module": "./node_modules/react-static/lib/client/components/RouteData.js",
@@ -3744,7 +3771,7 @@
               "loc": "27:22-49"
             },
             {
-              "moduleId": 141,
+              "moduleId": 138,
               "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
               "module": "./src/containers/NoteCard.js",
               "moduleName": "./src/containers/NoteCard.js",
@@ -3789,9 +3816,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/Prefetch.js",
-          "issuerId": 117,
-          "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 92,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4196,7 +4223,7 @@
               "loc": "1:0-65"
             },
             {
-              "moduleId": 138,
+              "moduleId": 139,
               "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/process-nextick-args/index.js",
               "module": "./node_modules/process-nextick-args/index.js",
               "moduleName": "./node_modules/process-nextick-args/index.js",
@@ -4519,9 +4546,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createMemoryHistory.js",
-          "issuerId": 67,
-          "issuerName": "./node_modules/history/es/createMemoryHistory.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createHashHistory.js",
+          "issuerId": 66,
+          "issuerName": "./node_modules/history/es/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4815,9 +4842,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
-          "issuerId": 114,
-          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 92,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5364,9 +5391,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/generatePath.js",
-          "issuerId": 34,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/matchPath.js",
+          "issuerId": 21,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5605,9 +5632,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
-          "issuerId": 114,
-          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+          "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/methods.js",
+          "issuerId": 11,
+          "issuerName": "./node_modules/react-static/lib/client/methods.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9368,10 +9395,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.0ad3ab95.js",
-        "bootstrap.0ad3ab95.js.map"
+        "bootstrap.6cdc3916.js",
+        "bootstrap.6cdc3916.js.map"
       ],
-      "hash": "0ad3ab951c77a1a6e964",
+      "hash": "6cdc391654b6c433ccad",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -9753,19 +9780,19 @@
           "loc": "9:13-29"
         },
         {
-          "moduleId": 140,
-          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-          "module": "./src/containers/NoteCards.js",
-          "moduleName": "./src/containers/NoteCards.js",
+          "moduleId": 138,
+          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
+          "module": "./src/containers/NoteCard.js",
+          "moduleName": "./src/containers/NoteCard.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
         },
         {
           "moduleId": 141,
-          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
-          "module": "./src/containers/NoteCard.js",
-          "moduleName": "./src/containers/NoteCard.js",
+          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
+          "module": "./src/containers/NoteCards.js",
+          "moduleName": "./src/containers/NoteCards.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
@@ -9792,9 +9819,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
-      "issuerId": 114,
-      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 92,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10752,6 +10779,15 @@
           "loc": "8:22-49"
         },
         {
+          "moduleId": 50,
+          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "module": "./src/containers/Home.js",
+          "moduleName": "./src/containers/Home.js",
+          "type": "cjs require",
+          "userRequest": "react-router-dom",
+          "loc": "21:22-49"
+        },
+        {
           "moduleId": 92,
           "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
           "module": "./node_modules/react-static/lib/client/components/RouteData.js",
@@ -10806,7 +10842,7 @@
           "loc": "27:22-49"
         },
         {
-          "moduleId": 141,
+          "moduleId": 138,
           "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
           "module": "./src/containers/NoteCard.js",
           "moduleName": "./src/containers/NoteCard.js",
@@ -10851,9 +10887,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/Prefetch.js",
-      "issuerId": 117,
-      "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 92,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11258,7 +11294,7 @@
           "loc": "1:0-65"
         },
         {
-          "moduleId": 138,
+          "moduleId": 139,
           "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/process-nextick-args/index.js",
           "module": "./node_modules/process-nextick-args/index.js",
           "moduleName": "./node_modules/process-nextick-args/index.js",
@@ -11581,9 +11617,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createMemoryHistory.js",
-      "issuerId": 67,
-      "issuerName": "./node_modules/history/es/createMemoryHistory.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/history/es/createHashHistory.js",
+      "issuerId": 66,
+      "issuerName": "./node_modules/history/es/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11877,9 +11913,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
-      "issuerId": 114,
-      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 92,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12426,9 +12462,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/generatePath.js",
-      "issuerId": 34,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-router/es/matchPath.js",
+      "issuerId": 21,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12667,9 +12703,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/components/SiteData.js",
-      "issuerId": 114,
-      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/react-static/lib/client/methods.js",
+      "issuerId": 11,
+      "issuerName": "./node_modules/react-static/lib/client/methods.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13222,7 +13258,7 @@
       "name": "./src/containers/Home.js",
       "index": 131,
       "index2": 130,
-      "size": 2445,
+      "size": 1722,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13261,7 +13297,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes;\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h1',\n          null,\n          'Directory'\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container container-padded' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'col-md-8 offset-md-2' },\n            _react2.default.createElement(\n              'p',\n              null,\n              'Information wants to be free, and thoughts deserve to be open.'\n            ),\n            _react2.default.createElement(\n              'p',\n              null,\n              'Directory is a project to open-source my thoughts and build my life with transparency. We\\'re not good at thinking, but consistent writing and reflection can hammer our thoughts into obeying rationality and logic. I\\'m updating Directory constantly, and you can read everything as I go.'\n            ),\n            _react2.default.createElement(\n              'p',\n              null,\n              'Comment on my thoughts by ',\n              _react2.default.createElement(\n                'a',\n                { href: 'https://github.com/gytdau/directory/issues/new' },\n                'creating an issue'\n              ),\n              '. Steal whatever you like, no permission or attribution required.'\n            )\n          )\n        )\n      )\n    )\n  );\n});"
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require(\"react-static\");\n\nvar _NoteCards = require(\"./NoteCards\");\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nvar _NoteCard = require(\"./NoteCard\");\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes;\n\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    _react2.default.createElement(\n      \"div\",\n      { className: \"container container-padded\" },\n      children_notes.map(function (note) {\n        return _react2.default.createElement(\n          \"div\",\n          null,\n          _react2.default.createElement(\n            \"h1\",\n            { className: \"card-list-title\" },\n            note.name,\n            \" \",\n            _react2.default.createElement(\n              \"div\",\n              null,\n              _react2.default.createElement(\n                _reactRouterDom.Link,\n                { to: note.path, className: \"btn btn-light float-right\" },\n                \"OPEN\"\n              )\n            )\n          ),\n          _react2.default.createElement(\n            \"div\",\n            { className: \"card-list\" },\n            note.children.slice(0, 4).map(function (child) {\n              return _react2.default.createElement(_NoteCard2.default, { note: child, series: note.name });\n            })\n          )\n        );\n      })\n    )\n  );\n});"
     },
     {
       "id": 51,
@@ -13316,7 +13352,7 @@
       "name": "./src/containers/Note.js",
       "index": 135,
       "index2": 168,
-      "size": 3553,
+      "size": 3646,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13355,7 +13391,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _htmlEntities = require('html-entities');\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _tipograph = require('tipograph');\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _NoteCards = require('./NoteCards');\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction toTitleCase(str) {\n  var result = str.replace(/([A-Z])/g, \" $1\");\n  return result.charAt(0).toUpperCase() + result.slice(1);\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = entities.decode(note.contents);\n  var parent_path = \"/\" + note.parent;\n  var parent = parent_path.split(\"/\").pop();\n  parent = toTitleCase(parent);\n  if (parent_path == \"/home\") {\n    parent_path = \"/\";\n  }\n  console.log(note);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        'div',\n        { className: 'header--secondary header--secondary--essay' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'h1',\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            'h2',\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'text' },\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'div',\n            { 'class': 'row' },\n            _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2 essay-titlecap', dangerouslySetInnerHTML: { __html: contents } })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'div',\n      { className: 'header--secondary' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'h2',\n          { className: 'back-button' },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: parent_path },\n            parent,\n            ' ',\n            _react2.default.createElement('i', { className: 'mdi mdi-subdirectory-arrow-left back-icon' })\n          )\n        ),\n        _react2.default.createElement(\n          'h1',\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes })\n    ),\n    _react2.default.createElement(\n      'div',\n      { className: 'text' },\n      _react2.default.createElement(\n        'div',\n        { className: 'container' },\n        _react2.default.createElement(\n          'div',\n          { 'class': 'row' },\n          _react2.default.createElement('div', { 'class': 'col-md-8 offset-md-2', dangerouslySetInnerHTML: { __html: contents } })\n        )\n      )\n    )\n  );\n});"
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _htmlEntities = require(\"html-entities\");\n\nvar _htmlEntities2 = _interopRequireDefault(_htmlEntities);\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require(\"react-static\");\n\nvar _tipograph = require(\"tipograph\");\n\nvar _tipograph2 = _interopRequireDefault(_tipograph);\n\nvar _NoteCards = require(\"./NoteCards\");\n\nvar _NoteCards2 = _interopRequireDefault(_NoteCards);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction toTitleCase(str) {\n  var result = str.replace(/([A-Z])/g, \" $1\");\n  return result.charAt(0).toUpperCase() + result.slice(1);\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var children_notes = _ref.children_notes,\n      note = _ref.note;\n\n  var typeset = (0, _tipograph2.default)();\n  var entities = new _htmlEntities2.default.AllHtmlEntities();\n  var contents = entities.decode(note.contents);\n  var parent_path = \"/\" + note.parent;\n  var parent = parent_path.split(\"/\").pop();\n  parent = toTitleCase(parent);\n  if (parent_path == \"/home\") {\n    parent_path = \"/\";\n  }\n  console.log(note);\n  if (note.type == \"essay\") {\n    return _react2.default.createElement(\n      \"div\",\n      null,\n      _react2.default.createElement(\n        \"div\",\n        { className: \"header--secondary header--secondary--essay\" },\n        _react2.default.createElement(\n          \"div\",\n          { className: \"container\" },\n          _react2.default.createElement(\n            \"h1\",\n            null,\n            note.name\n          ),\n          _react2.default.createElement(\n            \"h2\",\n            null,\n            note.subtitle\n          )\n        )\n      ),\n      _react2.default.createElement(\n        \"div\",\n        { className: \"text\" },\n        _react2.default.createElement(\n          \"div\",\n          { className: \"container\" },\n          _react2.default.createElement(\n            \"div\",\n            { \"class\": \"row\" },\n            _react2.default.createElement(\"div\", {\n              \"class\": \"col-md-8 offset-md-2 essay-titlecap\",\n              dangerouslySetInnerHTML: { __html: contents }\n            })\n          )\n        )\n      )\n    );\n  }\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    _react2.default.createElement(\n      \"div\",\n      { className: \"header--secondary\" },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"container\" },\n        _react2.default.createElement(\n          \"h2\",\n          { className: \"back-button\" },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: parent_path },\n            parent,\n            \" \",\n            _react2.default.createElement(\"i\", { className: \"mdi mdi-subdirectory-arrow-left back-icon\" })\n          )\n        ),\n        _react2.default.createElement(\n          \"h1\",\n          null,\n          note.name\n        )\n      )\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: \"container\" },\n      _react2.default.createElement(_NoteCards2.default, { notes: children_notes, series: note.name })\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: \"text\" },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"container\" },\n        _react2.default.createElement(\n          \"div\",\n          { \"class\": \"row\" },\n          _react2.default.createElement(\"div\", {\n            \"class\": \"col-md-8 offset-md-2\",\n            dangerouslySetInnerHTML: { __html: contents }\n          })\n        )\n      )\n    )\n  );\n});"
     },
     {
       "id": 53,
@@ -16745,9 +16781,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_duplex.js",
-      "issuerId": 136,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+      "issuerId": 148,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16806,6 +16842,54 @@
     },
     {
       "id": 138,
+      "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
+      "name": "./src/containers/NoteCard.js",
+      "index": 133,
+      "index2": 128,
+      "size": 1110,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+      "issuerId": 50,
+      "issuerName": "./src/containers/Home.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 50,
+          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/Home.js",
+          "module": "./src/containers/Home.js",
+          "moduleName": "./src/containers/Home.js",
+          "type": "cjs require",
+          "userRequest": "./NoteCard",
+          "loc": "17:16-37"
+        },
+        {
+          "moduleId": 141,
+          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
+          "module": "./src/containers/NoteCards.js",
+          "moduleName": "./src/containers/NoteCards.js",
+          "type": "cjs require",
+          "userRequest": "./NoteCard",
+          "loc": "11:16-37"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4,
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar image = function image(note) {\n  if (note.gradient) {\n    return {\n      background: \"\" + note.gradient\n    };\n  }\n  if (note.background) {\n    return {\n      background: \"url(/\" + note.path + note.background + \")\"\n    };\n  }\n  return {};\n};\n\nexports.default = function (props) {\n  return props.note.published != false ? _react2.default.createElement(\n    _reactRouterDom.Link,\n    { to: \"/\" + props.note.path },\n    _react2.default.createElement(\n      \"div\",\n      { className: \"card series-\" + props.series, style: image(props.note) },\n      _react2.default.createElement(\n        \"div\",\n        { className: \"card-body\" },\n        _react2.default.createElement(\"h5\", {\n          dangerouslySetInnerHTML: {\n            __html: props.note.name\n          }\n        })\n      )\n    )\n  ) : null;\n};"
+    },
+    {
+      "id": 139,
       "identifier": "/home/gytdau/projects/directory/node_modules/process-nextick-args/index.js",
       "name": "./node_modules/process-nextick-args/index.js",
       "index": 150,
@@ -16819,9 +16903,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_duplex.js",
-      "issuerId": 136,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+      "issuerId": 148,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16870,7 +16954,7 @@
       "source": "'use strict';\n\nif (!process.version ||\n    process.version.indexOf('v0.') === 0 ||\n    process.version.indexOf('v1.') === 0 && process.version.indexOf('v1.8.') !== 0) {\n  module.exports = { nextTick: nextTick };\n} else {\n  module.exports = process\n}\n\nfunction nextTick(fn, arg1, arg2, arg3) {\n  if (typeof fn !== 'function') {\n    throw new TypeError('\"callback\" argument must be a function');\n  }\n  var len = arguments.length;\n  var args, i;\n  switch (len) {\n  case 0:\n  case 1:\n    return process.nextTick(fn);\n  case 2:\n    return process.nextTick(function afterTickOne() {\n      fn.call(null, arg1);\n    });\n  case 3:\n    return process.nextTick(function afterTickTwo() {\n      fn.call(null, arg1, arg2);\n    });\n  case 4:\n    return process.nextTick(function afterTickThree() {\n      fn.call(null, arg1, arg2, arg3);\n    });\n  default:\n    args = new Array(len - 1);\n    i = 0;\n    while (i < args.length) {\n      args[i++] = arguments[i];\n    }\n    return process.nextTick(function afterTick() {\n      fn.apply(null, args);\n    });\n  }\n}\n\n"
     },
     {
-      "id": 139,
+      "id": 140,
       "identifier": "/home/gytdau/projects/directory/node_modules/safe-buffer/index.js",
       "name": "./node_modules/safe-buffer/index.js",
       "index": 152,
@@ -16884,9 +16968,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_writable.js",
-      "issuerId": 145,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_writable.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+      "issuerId": 148,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16935,12 +17019,12 @@
       "source": "/* eslint-disable node/no-deprecated-api */\nvar buffer = require('buffer')\nvar Buffer = buffer.Buffer\n\n// alternative to using Object.keys for old browsers\nfunction copyProps (src, dst) {\n  for (var key in src) {\n    dst[key] = src[key]\n  }\n}\nif (Buffer.from && Buffer.alloc && Buffer.allocUnsafe && Buffer.allocUnsafeSlow) {\n  module.exports = buffer\n} else {\n  // Copy properties from require('buffer')\n  copyProps(buffer, exports)\n  exports.Buffer = SafeBuffer\n}\n\nfunction SafeBuffer (arg, encodingOrOffset, length) {\n  return Buffer(arg, encodingOrOffset, length)\n}\n\n// Copy static methods from Buffer\ncopyProps(Buffer, SafeBuffer)\n\nSafeBuffer.from = function (arg, encodingOrOffset, length) {\n  if (typeof arg === 'number') {\n    throw new TypeError('Argument must not be a number')\n  }\n  return Buffer(arg, encodingOrOffset, length)\n}\n\nSafeBuffer.alloc = function (size, fill, encoding) {\n  if (typeof size !== 'number') {\n    throw new TypeError('Argument must be a number')\n  }\n  var buf = Buffer(size)\n  if (fill !== undefined) {\n    if (typeof encoding === 'string') {\n      buf.fill(fill, encoding)\n    } else {\n      buf.fill(fill)\n    }\n  } else {\n    buf.fill(0)\n  }\n  return buf\n}\n\nSafeBuffer.allocUnsafe = function (size) {\n  if (typeof size !== 'number') {\n    throw new TypeError('Argument must be a number')\n  }\n  return Buffer(size)\n}\n\nSafeBuffer.allocUnsafeSlow = function (size) {\n  if (typeof size !== 'number') {\n    throw new TypeError('Argument must be a number')\n  }\n  return buffer.SlowBuffer(size)\n}\n"
     },
     {
-      "id": 140,
+      "id": 141,
       "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
       "name": "./src/containers/NoteCards.js",
       "index": 132,
       "index2": 129,
-      "size": 594,
+      "size": 616,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -16980,46 +17064,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _NoteCard = require('./NoteCard');\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return _react2.default.createElement(\n    'div',\n    { 'class': 'row' },\n    props.notes.map(function (note) {\n      return _react2.default.createElement(_NoteCard2.default, { note: note });\n    })\n  );\n};"
-    },
-    {
-      "id": 141,
-      "identifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCard.js",
-      "name": "./src/containers/NoteCard.js",
-      "index": 133,
-      "index2": 128,
-      "size": 1388,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0,
-        1
-      ],
-      "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-      "issuerId": 140,
-      "issuerName": "./src/containers/NoteCards.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 140,
-          "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/gytdau/projects/directory/src/containers/NoteCards.js",
-          "module": "./src/containers/NoteCards.js",
-          "moduleName": "./src/containers/NoteCards.js",
-          "type": "cjs require",
-          "userRequest": "./NoteCard",
-          "loc": "11:16-37"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [],
-      "depth": 5,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return props.note.published != false ? _react2.default.createElement(\n    'div',\n    { className: 'col-md-4' },\n    _react2.default.createElement(\n      _reactRouterDom.Link,\n      { className: 'card-container', to: \"/\" + props.note.path },\n      _react2.default.createElement(\n        'div',\n        { className: 'card' },\n        _react2.default.createElement(\n          'div',\n          { className: 'card-body' },\n          _react2.default.createElement('h5', { className: 'card-title', dangerouslySetInnerHTML: { __html: props.note.name + (props.note.folder > 0 ? \" <div class='size-indicator text-muted'>\" + props.note.folder + \"</div>\" : \"\") } }),\n          props.note.tags ? _react2.default.createElement(\n            'div',\n            null,\n            props.note.tags.map(function (tag) {\n              return _react2.default.createElement(\n                'div',\n                { className: 'tag', id: \"tag-\" + tag },\n                tag\n              );\n            })\n          ) : null\n        )\n      )\n    )\n  ) : null;\n};"
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _NoteCard = require(\"./NoteCard\");\n\nvar _NoteCard2 = _interopRequireDefault(_NoteCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  return _react2.default.createElement(\n    \"div\",\n    { \"class\": \"row\" },\n    props.notes.map(function (note) {\n      return _react2.default.createElement(_NoteCard2.default, { note: note, series: props.series });\n    })\n  );\n};"
     },
     {
       "id": 142,
@@ -17053,7 +17098,7 @@
           "loc": "1:0-34"
         },
         {
-          "moduleId": 139,
+          "moduleId": 140,
           "moduleIdentifier": "/home/gytdau/projects/directory/node_modules/safe-buffer/index.js",
           "module": "./node_modules/safe-buffer/index.js",
           "moduleName": "./node_modules/safe-buffer/index.js",
@@ -17401,9 +17446,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_writable.js",
-      "issuerId": 145,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_writable.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+      "issuerId": 148,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17448,9 +17493,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_writable.js",
-      "issuerId": 145,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_writable.js",
+      "issuer": "/home/gytdau/projects/directory/node_modules/readable-stream/lib/_stream_readable.js",
+      "issuerId": 148,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -18359,12 +18404,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 4448,
+          "size": 4889,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "dedcf972091b0efe44d9",
+          "hash": "d858d352eb4d8c0c3813",
           "parents": [],
           "modules": [
             {
@@ -18373,7 +18418,7 @@
               "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/app.scss",
               "index": 0,
               "index2": 1,
-              "size": 2188,
+              "size": 2629,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -18393,7 +18438,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\nexports.push([module.id, \"@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:Archivo}h1,h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:50vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container-padded{padding-top:6em;padding-bottom:6em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}.back-button{font-weight:400}.back-button a:hover{text-decoration:none}.back-icon:before{transform:rotate(-90deg) translateX(-4px);display:inline-block}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\nexports.push([module.id, \"@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}.series-Emotion{background-color:#444}.series-Emotion h5,.series-Philosophy h5{color:#fff!important}*{font-family:Archivo}h1,h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:30vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container-padded{padding-top:6em;padding-bottom:6em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card-list{display:flex;flex-wrap:wrap;justify-content:space-around}.card-list-title{display:flex;justify-content:space-between;margin:0;margin-top:1.5em}.btn-light{font-size:.5em}.card{margin:1em;width:12.75em;max-width:12.75em;min-width:12.75em;height:16.5em;border:0;background-size:cover;box-shadow:0 10px 20px rgba(0,0,0,.041),0 6px 6px rgba(0,0,0,.041)}.card-body{color:#111;display:flex;align-items:flex-end}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}.back-button{font-weight:400}.back-button a:hover{text-decoration:none}.back-icon:before{transform:rotate(-90deg) translateX(-4px);display:inline-block}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -18454,7 +18499,7 @@
           "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-3!./src/app.scss",
           "index": 0,
           "index2": 1,
-          "size": 2188,
+          "size": 2629,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -18474,7 +18519,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\nexports.push([module.id, \"@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}*{font-family:Archivo}h1,h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:50vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container-padded{padding-top:6em;padding-bottom:6em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card{margin-bottom:1em}.card-body{color:#111;height:0;padding-bottom:7em}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}.back-button{font-weight:400}.back-button a:hover{text-decoration:none}.back-icon:before{transform:rotate(-90deg) translateX(-4px);display:inline-block}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700);\", \"\"]);\nexports.push([module.id, \"@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);\", \"\"]);\nexports.push([module.id, \"@import url(https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css);\", \"\"]);\n\n// module\nexports.push([module.id, \"blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ol,ul{margin:0 0 1.5em 1.5em}table{margin-bottom:1.5em;font-size:1em}tfoot th,thead th{padding:.25em .25em .25em .4em;text-transform:uppercase}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}code{background-color:#dadada;padding-left:1ch;padding-right:1ch}code,pre,tt{font-size:.875em;line-height:1.7}h1{line-height:1.3em;font-weight:400;margin-bottom:.5em}pre{background-color:#dadada;padding:1ch}.series-Emotion{background-color:#444}.series-Emotion h5,.series-Philosophy h5{color:#fff!important}*{font-family:Archivo}h1,h2,h3,h4{font-weight:700}h2{font-size:1.8rem}h3{color:#646871;font-size:1.4rem}h2,h3{margin:4rem 0 1rem}blockquote{border-left:0;font-size:.9em;color:#646871}.header{height:30vh;display:flex;align-items:center;background-color:#111;color:#fff}.header--secondary--essay{height:100vh;justify-content:center;align-items:center;display:flex}.header--secondary--essay .container{justify-content:center;align-items:center;display:flex;flex-direction:column}.container-padded{padding-top:6em;padding-bottom:6em}.text{min-height:100vh;padding-top:3em;font-size:1.2em;line-height:1.7;padding-bottom:20vh}p{margin-bottom:2em}.card-list{display:flex;flex-wrap:wrap;justify-content:space-around}.card-list-title{display:flex;justify-content:space-between;margin:0;margin-top:1.5em}.btn-light{font-size:.5em}.card{margin:1em;width:12.75em;max-width:12.75em;min-width:12.75em;height:16.5em;border:0;background-size:cover;box-shadow:0 10px 20px rgba(0,0,0,.041),0 6px 6px rgba(0,0,0,.041)}.card-body{color:#111;display:flex;align-items:flex-end}.card-container:hover{text-decoration:none!important}img{width:100%}.size-indicator{font-size:.8em;margin:.3em;float:right}.tag{display:inline-block;border-radius:100px;background-color:#0074d9;color:#fff;text-transform:capitalize;padding:.1em .7em .2em;margin-right:.5em}.back-button{font-weight:400}.back-button a:hover{text-decoration:none}.back-icon:before{transform:rotate(-90deg) translateX(-4px);display:inline-block}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
