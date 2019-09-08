@@ -14,12 +14,4 @@ Consider this statement from a different perspective.
 
 Imagine a simple number game where you have to guess numbers within some bounds that you don't know. If your objective was to discover these bounds, it's a very bad sign indeed if you keep hitting a number within the bounds. And indeed, one wrong guess could tell you far more than ten right guesses.  
 
-A mistake is just an event that we realize we could've handled better. The realisation part is the win. If someone isn't self-reflective, they'd have made no mistakes while clearly being 
-
-## Success as loss
-
-In some scenarios, it could be 
-
-## Psychology for loss
-
-Failiure is a deeply-rooted painful experience, which can encourage growth and self-renewal. However, if it becomes too painful, it sucks you into a vortex where you avoid opportunities in the future for fear of screwing it up. We must recognize it's critical 
+A mistake is just an event that we realize we could've handled better. The realisation part is the win. If someone isn't self-reflective, they'd have made no mistakes while clearly being worse off than someone who did record their events as mistakes.

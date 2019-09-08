@@ -46,5 +46,7 @@ Soft skills are not easy to teach.
 
 You don't go about learning hard skills, since _hard skills_ is vague and includes the skills used in every field of human endeavour. Similarly, the term 'soft skills' encompasses a range of talents that would take many human lifetimes to fully develop. 
 
-This is the area in which the soft skills and hard skills distinction needs to discarded for something more nuanced.
+It appears that soft skills are learned through consistent long-term exposure to working environments and good people.
+
+The list of soft skills is so large that it's not useful to list them. They range in topics from communication, critical thinking, leadership, and work ethic, including others. I probably don't have a good view of which skills are the most valuable ones.
 
