@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700');
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
-@import url('https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css');
+@import url("https://fonts.googleapis.com/css?family=Archivo:400,700,400i|IBM+Plex+Serif:400,400i,600i,700");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css");
+@import url("https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css");
 @import "markdown.scss";
+@import "series.scss";
 
 $dark: #111111;
 
 * {
   font-family: "Archivo";
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: bold;
 }
 h2 {
@@ -18,7 +22,8 @@ h3 {
   color: #646871;
   font-size: 1.4rem;
 }
-h2, h3 {
+h2,
+h3 {
   margin: 4rem 0 1rem;
 }
 blockquote {
@@ -27,7 +32,7 @@ blockquote {
   color: #646871;
 }
 .header {
-  height: 50vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   background-color: $dark;
@@ -61,15 +66,23 @@ blockquote {
 p {
   margin-bottom: 2em;
 }
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .card {
-  margin-bottom: 1em;
+  margin: 1em;
+  width: 12.75em;
+  max-width: 12.75em;
+  min-width: 12.75em;
+  height: 16.5em;
 }
 .card-body {
   color: $dark;
-  height: 0;
-  padding-bottom: 7em;
+  display: flex;
+  align-items: flex-end;
 }
-.card-container:hover { 
+.card-container:hover {
   text-decoration: none !important;
 }
 img {
@@ -83,7 +96,7 @@ img {
 .tag {
   display: inline-block;
   border-radius: 100px;
-  background-color: #0074D9;
+  background-color: #0074d9;
   color: white;
   text-transform: capitalize;
   padding: 0.1em 0.7em 0.2em 0.7em;
@@ -94,7 +107,6 @@ img {
   a {
     &:hover {
       text-decoration: none;
-
     }
   }
 }
